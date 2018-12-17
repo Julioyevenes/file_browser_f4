@@ -1,0 +1,7382 @@
+/*****************************************************************************
+ * FileName:        DroidSansMono.c
+ * Processor:       PIC32MX
+ * Compiler:        MPLAB C32/XC32 (see release notes for tested revision)
+ * Linker:          MPLAB LINK32/XC32
+ * Company:         Microchip Technology, Inc.
+ *
+ * Software License Agreement
+ *
+ * Copyright(c) 2012 Microchip Technology Inc.  All rights reserved.
+ * Microchip licenses to you the right to use, modify, copy and distribute
+ * Software only when embedded on a Microchip microcontroller or digital
+ * signal controller, which is integrated into your product or third party
+ * product (pursuant to the sublicense terms in the accompanying license
+ * agreement).
+ *
+ * You should refer to the license agreement accompanying this Software
+ * for additional information regarding your rights and obligations.
+ *
+ * SOFTWARE AND DOCUMENTATION ARE PROVIDED “AS IS” WITHOUT WARRANTY OF ANY
+ * KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION, ANY WARRANTY
+ * OF MERCHANTABILITY, TITLE, NON-INFRINGEMENT AND FITNESS FOR A PARTICULAR
+ * PURPOSE. IN NO EVENT SHALL MICROCHIP OR ITS LICENSORS BE LIABLE OR
+ * OBLIGATED UNDER CONTRACT, NEGLIGENCE, STRICT LIABILITY, CONTRIBUTION,
+ * BREACH OF WARRANTY, OR OTHER LEGAL EQUITABLE THEORY ANY DIRECT OR INDIRECT
+ * DAMAGES OR EXPENSES INCLUDING BUT NOT LIMITED TO ANY INCIDENTAL, SPECIAL,
+ * INDIRECT, PUNITIVE OR CONSEQUENTIAL DAMAGES, LOST PROFITS OR LOST DATA,
+ * COST OF PROCUREMENT OF SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY
+ * CLAIMS BY THIRD PARTIES (INCLUDING BUT NOT LIMITED TO ANY DEFENSE THEREOF),
+ * OR OTHER SIMILAR COSTS.
+ *
+ *
+ *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * AUTO-GENERATED CODE:  Graphics Resource Converter version: 3.28.15
+ *****************************************************************************/
+
+/*****************************************************************************
+ * SECTION:  Includes
+ *****************************************************************************/
+#include <Graphics.h>
+#include "HardwareProfile.h"
+
+/*****************************************************************************
+ * SECTION:  Graphics Library Firmware Check
+ *****************************************************************************/
+#if(GRAPHICS_LIBRARY_VERSION != 0x0306)
+#warning "It is suggested to use Graphics Library version 3.06 with this version of GRC."
+#endif
+
+
+/*****************************************************************************
+ * Converted Resources
+ * -------------------
+ *
+ *
+ * Fonts
+ * -----
+ * DroidSansMono_12 - Height: 17 pixels, 2 bits per pixel, Range: ' ' to '~'
+ * DroidSansMono_14 - Height: 19 pixels, 2 bits per pixel, Range: ' ' to '~'
+ * DroidSansMono_16 - Height: 22 pixels, 2 bits per pixel, Range: ' ' to '~'
+ *****************************************************************************/
+
+/*****************************************************************************
+ * SECTION:  Fonts
+ *****************************************************************************/
+
+/*********************************
+ * TTF Font File Structure
+ * Label: DroidSansMono_12
+ * Description:  Height: 17 pixels, 2 bits per pixel, Range: ' ' to '~'
+ ***********************************/
+
+extern const char __DroidSansMono_12[] __attribute__((aligned(2)));
+
+const FONT_FLASH DroidSansMono_12 =
+{
+    (XFLASH | COMP_NONE),
+    (GFX_FONT_SPACE char *)__DroidSansMono_12
+};
+
+const char __DroidSansMono_12[] __attribute__((aligned(2))) =
+{
+/****************************************
+ * Font header
+ ****************************************/
+    0x00,           // Font ID
+    0x04,           // Font information:  2 bits per pixel, Characters zero degress rotation
+    0x20, 0x00,     // First Character
+    0x7E, 0x00,     // Last Character
+    0x11, 0x00,     // Height
+/****************************************
+ * Font Glyph Table
+ ****************************************/
+    0x07,              // width of the glyph
+    0x84, 0x01, 0x00,       // Character - 32, offset (0x00000184)
+    0x07,              // width of the glyph
+    0xA6, 0x01, 0x00,       // Character - 33, offset (0x000001A6)
+    0x07,              // width of the glyph
+    0xC8, 0x01, 0x00,       // Character - 34, offset (0x000001C8)
+    0x07,              // width of the glyph
+    0xEA, 0x01, 0x00,       // Character - 35, offset (0x000001EA)
+    0x07,              // width of the glyph
+    0x0C, 0x02, 0x00,       // Character - 36, offset (0x0000020C)
+    0x07,              // width of the glyph
+    0x2E, 0x02, 0x00,       // Character - 37, offset (0x0000022E)
+    0x07,              // width of the glyph
+    0x50, 0x02, 0x00,       // Character - 38, offset (0x00000250)
+    0x07,              // width of the glyph
+    0x72, 0x02, 0x00,       // Character - 39, offset (0x00000272)
+    0x07,              // width of the glyph
+    0x94, 0x02, 0x00,       // Character - 40, offset (0x00000294)
+    0x07,              // width of the glyph
+    0xB6, 0x02, 0x00,       // Character - 41, offset (0x000002B6)
+    0x07,              // width of the glyph
+    0xD8, 0x02, 0x00,       // Character - 42, offset (0x000002D8)
+    0x07,              // width of the glyph
+    0xFA, 0x02, 0x00,       // Character - 43, offset (0x000002FA)
+    0x07,              // width of the glyph
+    0x1C, 0x03, 0x00,       // Character - 44, offset (0x0000031C)
+    0x07,              // width of the glyph
+    0x3E, 0x03, 0x00,       // Character - 45, offset (0x0000033E)
+    0x07,              // width of the glyph
+    0x60, 0x03, 0x00,       // Character - 46, offset (0x00000360)
+    0x07,              // width of the glyph
+    0x82, 0x03, 0x00,       // Character - 47, offset (0x00000382)
+    0x07,              // width of the glyph
+    0xA4, 0x03, 0x00,       // Character - 48, offset (0x000003A4)
+    0x07,              // width of the glyph
+    0xC6, 0x03, 0x00,       // Character - 49, offset (0x000003C6)
+    0x07,              // width of the glyph
+    0xE8, 0x03, 0x00,       // Character - 50, offset (0x000003E8)
+    0x07,              // width of the glyph
+    0x0A, 0x04, 0x00,       // Character - 51, offset (0x0000040A)
+    0x07,              // width of the glyph
+    0x2C, 0x04, 0x00,       // Character - 52, offset (0x0000042C)
+    0x07,              // width of the glyph
+    0x4E, 0x04, 0x00,       // Character - 53, offset (0x0000044E)
+    0x07,              // width of the glyph
+    0x70, 0x04, 0x00,       // Character - 54, offset (0x00000470)
+    0x07,              // width of the glyph
+    0x92, 0x04, 0x00,       // Character - 55, offset (0x00000492)
+    0x07,              // width of the glyph
+    0xB4, 0x04, 0x00,       // Character - 56, offset (0x000004B4)
+    0x07,              // width of the glyph
+    0xD6, 0x04, 0x00,       // Character - 57, offset (0x000004D6)
+    0x07,              // width of the glyph
+    0xF8, 0x04, 0x00,       // Character - 58, offset (0x000004F8)
+    0x07,              // width of the glyph
+    0x1A, 0x05, 0x00,       // Character - 59, offset (0x0000051A)
+    0x07,              // width of the glyph
+    0x3C, 0x05, 0x00,       // Character - 60, offset (0x0000053C)
+    0x07,              // width of the glyph
+    0x5E, 0x05, 0x00,       // Character - 61, offset (0x0000055E)
+    0x07,              // width of the glyph
+    0x80, 0x05, 0x00,       // Character - 62, offset (0x00000580)
+    0x07,              // width of the glyph
+    0xA2, 0x05, 0x00,       // Character - 63, offset (0x000005A2)
+    0x07,              // width of the glyph
+    0xC4, 0x05, 0x00,       // Character - 64, offset (0x000005C4)
+    0x07,              // width of the glyph
+    0xE6, 0x05, 0x00,       // Character - 65, offset (0x000005E6)
+    0x07,              // width of the glyph
+    0x08, 0x06, 0x00,       // Character - 66, offset (0x00000608)
+    0x07,              // width of the glyph
+    0x2A, 0x06, 0x00,       // Character - 67, offset (0x0000062A)
+    0x07,              // width of the glyph
+    0x4C, 0x06, 0x00,       // Character - 68, offset (0x0000064C)
+    0x07,              // width of the glyph
+    0x6E, 0x06, 0x00,       // Character - 69, offset (0x0000066E)
+    0x07,              // width of the glyph
+    0x90, 0x06, 0x00,       // Character - 70, offset (0x00000690)
+    0x07,              // width of the glyph
+    0xB2, 0x06, 0x00,       // Character - 71, offset (0x000006B2)
+    0x07,              // width of the glyph
+    0xD4, 0x06, 0x00,       // Character - 72, offset (0x000006D4)
+    0x07,              // width of the glyph
+    0xF6, 0x06, 0x00,       // Character - 73, offset (0x000006F6)
+    0x07,              // width of the glyph
+    0x18, 0x07, 0x00,       // Character - 74, offset (0x00000718)
+    0x07,              // width of the glyph
+    0x3A, 0x07, 0x00,       // Character - 75, offset (0x0000073A)
+    0x07,              // width of the glyph
+    0x5C, 0x07, 0x00,       // Character - 76, offset (0x0000075C)
+    0x07,              // width of the glyph
+    0x7E, 0x07, 0x00,       // Character - 77, offset (0x0000077E)
+    0x07,              // width of the glyph
+    0xA0, 0x07, 0x00,       // Character - 78, offset (0x000007A0)
+    0x07,              // width of the glyph
+    0xC2, 0x07, 0x00,       // Character - 79, offset (0x000007C2)
+    0x07,              // width of the glyph
+    0xE4, 0x07, 0x00,       // Character - 80, offset (0x000007E4)
+    0x07,              // width of the glyph
+    0x06, 0x08, 0x00,       // Character - 81, offset (0x00000806)
+    0x07,              // width of the glyph
+    0x28, 0x08, 0x00,       // Character - 82, offset (0x00000828)
+    0x07,              // width of the glyph
+    0x4A, 0x08, 0x00,       // Character - 83, offset (0x0000084A)
+    0x07,              // width of the glyph
+    0x6C, 0x08, 0x00,       // Character - 84, offset (0x0000086C)
+    0x07,              // width of the glyph
+    0x8E, 0x08, 0x00,       // Character - 85, offset (0x0000088E)
+    0x07,              // width of the glyph
+    0xB0, 0x08, 0x00,       // Character - 86, offset (0x000008B0)
+    0x07,              // width of the glyph
+    0xD2, 0x08, 0x00,       // Character - 87, offset (0x000008D2)
+    0x07,              // width of the glyph
+    0xF4, 0x08, 0x00,       // Character - 88, offset (0x000008F4)
+    0x07,              // width of the glyph
+    0x16, 0x09, 0x00,       // Character - 89, offset (0x00000916)
+    0x07,              // width of the glyph
+    0x38, 0x09, 0x00,       // Character - 90, offset (0x00000938)
+    0x07,              // width of the glyph
+    0x5A, 0x09, 0x00,       // Character - 91, offset (0x0000095A)
+    0x07,              // width of the glyph
+    0x7C, 0x09, 0x00,       // Character - 92, offset (0x0000097C)
+    0x07,              // width of the glyph
+    0x9E, 0x09, 0x00,       // Character - 93, offset (0x0000099E)
+    0x07,              // width of the glyph
+    0xC0, 0x09, 0x00,       // Character - 94, offset (0x000009C0)
+    0x07,              // width of the glyph
+    0xE2, 0x09, 0x00,       // Character - 95, offset (0x000009E2)
+    0x07,              // width of the glyph
+    0x04, 0x0A, 0x00,       // Character - 96, offset (0x00000A04)
+    0x07,              // width of the glyph
+    0x26, 0x0A, 0x00,       // Character - 97, offset (0x00000A26)
+    0x07,              // width of the glyph
+    0x48, 0x0A, 0x00,       // Character - 98, offset (0x00000A48)
+    0x07,              // width of the glyph
+    0x6A, 0x0A, 0x00,       // Character - 99, offset (0x00000A6A)
+    0x07,              // width of the glyph
+    0x8C, 0x0A, 0x00,       // Character - 100, offset (0x00000A8C)
+    0x07,              // width of the glyph
+    0xAE, 0x0A, 0x00,       // Character - 101, offset (0x00000AAE)
+    0x07,              // width of the glyph
+    0xD0, 0x0A, 0x00,       // Character - 102, offset (0x00000AD0)
+    0x07,              // width of the glyph
+    0xF2, 0x0A, 0x00,       // Character - 103, offset (0x00000AF2)
+    0x07,              // width of the glyph
+    0x14, 0x0B, 0x00,       // Character - 104, offset (0x00000B14)
+    0x07,              // width of the glyph
+    0x36, 0x0B, 0x00,       // Character - 105, offset (0x00000B36)
+    0x07,              // width of the glyph
+    0x58, 0x0B, 0x00,       // Character - 106, offset (0x00000B58)
+    0x07,              // width of the glyph
+    0x7A, 0x0B, 0x00,       // Character - 107, offset (0x00000B7A)
+    0x07,              // width of the glyph
+    0x9C, 0x0B, 0x00,       // Character - 108, offset (0x00000B9C)
+    0x07,              // width of the glyph
+    0xBE, 0x0B, 0x00,       // Character - 109, offset (0x00000BBE)
+    0x07,              // width of the glyph
+    0xE0, 0x0B, 0x00,       // Character - 110, offset (0x00000BE0)
+    0x07,              // width of the glyph
+    0x02, 0x0C, 0x00,       // Character - 111, offset (0x00000C02)
+    0x07,              // width of the glyph
+    0x24, 0x0C, 0x00,       // Character - 112, offset (0x00000C24)
+    0x07,              // width of the glyph
+    0x46, 0x0C, 0x00,       // Character - 113, offset (0x00000C46)
+    0x07,              // width of the glyph
+    0x68, 0x0C, 0x00,       // Character - 114, offset (0x00000C68)
+    0x07,              // width of the glyph
+    0x8A, 0x0C, 0x00,       // Character - 115, offset (0x00000C8A)
+    0x07,              // width of the glyph
+    0xAC, 0x0C, 0x00,       // Character - 116, offset (0x00000CAC)
+    0x07,              // width of the glyph
+    0xCE, 0x0C, 0x00,       // Character - 117, offset (0x00000CCE)
+    0x07,              // width of the glyph
+    0xF0, 0x0C, 0x00,       // Character - 118, offset (0x00000CF0)
+    0x07,              // width of the glyph
+    0x12, 0x0D, 0x00,       // Character - 119, offset (0x00000D12)
+    0x07,              // width of the glyph
+    0x34, 0x0D, 0x00,       // Character - 120, offset (0x00000D34)
+    0x07,              // width of the glyph
+    0x56, 0x0D, 0x00,       // Character - 121, offset (0x00000D56)
+    0x07,              // width of the glyph
+    0x78, 0x0D, 0x00,       // Character - 122, offset (0x00000D78)
+    0x07,              // width of the glyph
+    0x9A, 0x0D, 0x00,       // Character - 123, offset (0x00000D9A)
+    0x07,              // width of the glyph
+    0xBC, 0x0D, 0x00,       // Character - 124, offset (0x00000DBC)
+    0x07,              // width of the glyph
+    0xDE, 0x0D, 0x00,       // Character - 125, offset (0x00000DDE)
+    0x07,              // width of the glyph
+    0x00, 0x0E, 0x00,       // Character - 126, offset (0x00000E00)
+/***********************************
+ * Font Characters
+ ***********************************/
+/***********************************
+ * Character - 32
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 33
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xC0, 0x02,         //    X*   
+    0xC0, 0x02,         //    X*   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0x80, 0x01,         //    *.   
+    0x00, 0x00,         //         
+    0x80, 0x01,         //    *.   
+    0xC0, 0x02,         //    X*   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 34
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x1C, 0x07,         //  X. X.  
+    0x1C, 0x07,         //  X. X.  
+    0x1C, 0x07,         //  X. X.  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 35
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x30, 0x0C,         //   X  X  
+    0x34, 0x0D,         //  .X .X  
+    0xFF, 0x3F,         // XXXXXXX 
+    0x24, 0x09,         //  .* .*  
+    0x18, 0x06,         //  *. *.  
+    0xFF, 0x3F,         // XXXXXXX 
+    0x1C, 0x07,         //  X. X.  
+    0x1C, 0x07,         //  X. X.  
+    0x0C, 0x03,         //  X  X   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 36
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xC0, 0x00,         //    X    
+    0xF4, 0x0B,         //  .XXX*  
+    0xDC, 0x05,         //  X.X..  
+    0xDC, 0x00,         //  X.X    
+    0xFC, 0x00,         //  XXX    
+    0xE4, 0x07,         //  .*XX.  
+    0xC0, 0x0F,         //    XXX  
+    0xC0, 0x0D,         //    X.X  
+    0xCC, 0x0E,         //  X X*X  
+    0xFC, 0x07,         //  XXXX.  
+    0xC0, 0x00,         //    X    
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 37
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x1D, 0x0D,         // .X. .X  
+    0x33, 0x06,         // X X *.  
+    0x73, 0x03,         // X X.X   
+    0x9D, 0x02,         // .X.**   
+    0xD0, 0x01,         //   .X.   
+    0xA0, 0x1D,         //   **.X. 
+    0x70, 0x33,         //   X.X X 
+    0x24, 0x33,         //  .* X X 
+    0x1C, 0x1D,         //  X. .X. 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 38
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF8, 0x02,         //  *XX*   
+    0x5C, 0x03,         //  X..X   
+    0x5C, 0x03,         //  X..X   
+    0xF8, 0x01,         //  *XX.   
+    0xB4, 0x00,         //  .X*    
+    0xDC, 0x0D,         //  X.X.X  
+    0x5C, 0x0F,         //  X..XX  
+    0x5C, 0x1F,         //  X..XX. 
+    0xF4, 0x2E,         //  .XX*X* 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 39
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 40
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x80, 0x03,         //    *X   
+    0xD0, 0x01,         //   .X.   
+    0xA0, 0x00,         //   **    
+    0x70, 0x00,         //   X.    
+    0x70, 0x00,         //   X.    
+    0x70, 0x00,         //   X.    
+    0x70, 0x00,         //   X.    
+    0x70, 0x00,         //   X.    
+    0xA0, 0x00,         //   **    
+    0xD0, 0x01,         //   .X.   
+    0x80, 0x02,         //    **   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 41
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xA0, 0x00,         //   **    
+    0xD0, 0x01,         //   .X.   
+    0x80, 0x02,         //    **   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x80, 0x02,         //    **   
+    0xD0, 0x01,         //   .X.   
+    0xA0, 0x00,         //   **    
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 42
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xD0, 0x01,         //   .X.   
+    0xD5, 0x15,         // ...X... 
+    0xFD, 0x1F,         // .XXXXX. 
+    0xB0, 0x03,         //   X*X   
+    0x34, 0x07,         //  .X X.  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 43
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xC0, 0x00,         //    X    
+    0xC0, 0x00,         //    X    
+    0xC0, 0x00,         //    X    
+    0xFD, 0x1F,         // .XXXXX. 
+    0xC0, 0x00,         //    X    
+    0xC0, 0x00,         //    X    
+    0xC0, 0x00,         //    X    
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 44
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xD0, 0x00,         //   .X    
+    0xA0, 0x00,         //   **    
+    0x70, 0x00,         //   X.    
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 45
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xFC, 0x03,         //  XXXX   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 46
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF0, 0x00,         //   XX    
+    0xF0, 0x00,         //   XX    
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 47
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x0D,         //     .X  
+    0x00, 0x07,         //     X.  
+    0x40, 0x03,         //    .X   
+    0x80, 0x02,         //    **   
+    0xD0, 0x01,         //   .X.   
+    0xA0, 0x00,         //   **    
+    0x70, 0x00,         //   X.    
+    0x34, 0x00,         //  .X     
+    0x1C, 0x00,         //  X.     
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 48
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF4, 0x07,         //  .XXX.  
+    0x28, 0x0A,         //  ** **  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x28, 0x0A,         //  ** **  
+    0xF4, 0x07,         //  .XXX.  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 49
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xE4, 0x01,         //  .*X.   
+    0xD8, 0x01,         //  *.X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 50
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF4, 0x07,         //  .XXX.  
+    0x14, 0x0D,         //  .. .X  
+    0x00, 0x0D,         //     .X  
+    0x00, 0x0D,         //     .X  
+    0x40, 0x07,         //    .X.  
+    0xC0, 0x02,         //    X*   
+    0xA0, 0x00,         //   **    
+    0x28, 0x00,         //  **     
+    0xFC, 0x0F,         //  XXXXX  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 51
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF8, 0x07,         //  *XXX.  
+    0x14, 0x0D,         //  .. .X  
+    0x00, 0x0D,         //     .X  
+    0x40, 0x0B,         //    .X*  
+    0xF0, 0x07,         //   XXX.  
+    0x00, 0x0E,         //     *X  
+    0x00, 0x0D,         //     .X  
+    0x0C, 0x0E,         //  X  *X  
+    0xFC, 0x07,         //  XXXX.  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 52
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x40, 0x03,         //    .X   
+    0x80, 0x03,         //    *X   
+    0x90, 0x03,         //   .*X   
+    0x60, 0x03,         //   *.X   
+    0x64, 0x03,         //  .*.X   
+    0x5C, 0x03,         //  X..X   
+    0xFC, 0x1F,         //  XXXXX. 
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 53
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xFC, 0x0F,         //  XXXXX  
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0xFC, 0x07,         //  XXXX.  
+    0x00, 0x0E,         //     *X  
+    0x00, 0x0D,         //     .X  
+    0x00, 0x0D,         //     .X  
+    0x0C, 0x0A,         //  X  **  
+    0xFC, 0x07,         //  XXXX.  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 54
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xD0, 0x0F,         //   .XXX  
+    0x74, 0x00,         //  .X.    
+    0x28, 0x00,         //  **     
+    0xEC, 0x07,         //  X*XX.  
+    0x2C, 0x0E,         //  X* *X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x28, 0x0E,         //  ** *X  
+    0xF4, 0x07,         //  .XXX.  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 55
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xFC, 0x0F,         //  XXXXX  
+    0x00, 0x0D,         //     .X  
+    0x00, 0x0B,         //     X*  
+    0x40, 0x07,         //    .X.  
+    0x80, 0x03,         //    *X   
+    0xC0, 0x01,         //    X.   
+    0xD0, 0x01,         //   .X.   
+    0xE0, 0x00,         //   *X    
+    0x70, 0x00,         //   X.    
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 56
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF4, 0x07,         //  .XXX.  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x78, 0x07,         //  *X.X.  
+    0xF4, 0x07,         //  .XXX.  
+    0x1C, 0x0E,         //  X. *X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0E,         //  X. *X  
+    0xF4, 0x07,         //  .XXX.  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 57
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF4, 0x07,         //  .XXX.  
+    0x2C, 0x0A,         //  X* **  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x2C, 0x0E,         //  X* *X  
+    0xF4, 0x0E,         //  .XX*X  
+    0x00, 0x0A,         //     **  
+    0x40, 0x07,         //    .X.  
+    0xFC, 0x01,         //  XXX.   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 58
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF0, 0x00,         //   XX    
+    0xF0, 0x00,         //   XX    
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF0, 0x00,         //   XX    
+    0xF0, 0x00,         //   XX    
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 59
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF0, 0x00,         //   XX    
+    0xF0, 0x00,         //   XX    
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xD0, 0x00,         //   .X    
+    0xA0, 0x00,         //   **    
+    0x70, 0x00,         //   X.    
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 60
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x0D,         //     .X  
+    0xE4, 0x06,         //  .*X*.  
+    0x7C, 0x00,         //  XX.    
+    0xE4, 0x06,         //  .*X*.  
+    0x00, 0x0D,         //     .X  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 61
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xFC, 0x0F,         //  XXXXX  
+    0x00, 0x00,         //         
+    0xFC, 0x0F,         //  XXXXX  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 62
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x1C, 0x00,         //  X.     
+    0xE4, 0x06,         //  .*X*.  
+    0x40, 0x0F,         //    .XX  
+    0xE4, 0x06,         //  .*X*.  
+    0x1C, 0x00,         //  X.     
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 63
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF8, 0x07,         //  *XXX.  
+    0x14, 0x0D,         //  .. .X  
+    0x00, 0x0D,         //     .X  
+    0x40, 0x07,         //    .X.  
+    0xD0, 0x01,         //   .X.   
+    0x70, 0x00,         //   X.    
+    0x00, 0x00,         //         
+    0xA0, 0x00,         //   **    
+    0xF0, 0x00,         //   XX    
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 64
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF4, 0x0B,         //  .XXX*  
+    0x1D, 0x1C,         // .X.  X. 
+    0x06, 0x34,         // *.   .X 
+    0xD7, 0x37,         // X..XX.X 
+    0x33, 0x37,         // X X X.X 
+    0x33, 0x37,         // X X X.X 
+    0xE3, 0x1E,         // X *X*X. 
+    0x07, 0x00,         // X.      
+    0x1D, 0x0C,         // .X.  X  
+    0xF4, 0x0B,         //  .XXX*  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 65
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xD0, 0x01,         //   .X.   
+    0xE0, 0x02,         //   *X*   
+    0x70, 0x03,         //   X.X   
+    0x34, 0x07,         //  .X X.  
+    0x28, 0x0A,         //  ** **  
+    0xFC, 0x0F,         //  XXXXX  
+    0x0D, 0x1C,         // .X   X. 
+    0x0A, 0x28,         // **   ** 
+    0x07, 0x34,         // X.   .X 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 66
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xFC, 0x07,         //  XXXX.  
+    0x1C, 0x0E,         //  X. *X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0E,         //  X. *X  
+    0xFC, 0x07,         //  XXXX.  
+    0x1C, 0x0E,         //  X. *X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0E,         //  X. *X  
+    0xFC, 0x07,         //  XXXX.  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 67
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xE0, 0x0F,         //   *XXX  
+    0x74, 0x05,         //  .X...  
+    0x2C, 0x00,         //  X*     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x2C, 0x00,         //  X*     
+    0x74, 0x0C,         //  .X. X  
+    0xE0, 0x0F,         //   *XXX  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 68
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xFC, 0x02,         //  XXX*   
+    0x5C, 0x07,         //  X..X.  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0E,         //  X. *X  
+    0x5C, 0x07,         //  X..X.  
+    0xFC, 0x01,         //  XXX.   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 69
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xFC, 0x0F,         //  XXXXX  
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0xFC, 0x0F,         //  XXXXX  
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0xFC, 0x0F,         //  XXXXX  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 70
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xFC, 0x0F,         //  XXXXX  
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0xFC, 0x0F,         //  XXXXX  
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 71
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xE0, 0x0B,         //   *XX*  
+    0x74, 0x05,         //  .X...  
+    0x2C, 0x00,         //  X*     
+    0x1C, 0x00,         //  X.     
+    0x5C, 0x0F,         //  X..XX  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x78, 0x0D,         //  *X..X  
+    0xE0, 0x0F,         //   *XXX  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 72
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0xFC, 0x0F,         //  XXXXX  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 73
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF8, 0x0F,         //  *XXXX  
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xF8, 0x0F,         //  *XXXX  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 74
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x8C, 0x03,         //  X *X   
+    0xFC, 0x01,         //  XXX.   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 75
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x1C, 0x38,         //  X.  *X 
+    0x1C, 0x1D,         //  X. .X. 
+    0x5C, 0x07,         //  X..X.  
+    0xDC, 0x01,         //  X.X.   
+    0xEC, 0x01,         //  X*X.   
+    0x5C, 0x03,         //  X..X   
+    0x1C, 0x0B,         //  X. X*  
+    0x1C, 0x1D,         //  X. .X. 
+    0x1C, 0x34,         //  X.  .X 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 76
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0xFC, 0x0F,         //  XXXXX  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 77
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x0C, 0x0D,         //  X  .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0E,         //  X. *X  
+    0x2C, 0x0E,         //  X* *X  
+    0x2C, 0x0E,         //  X* *X  
+    0x6C, 0x0E,         //  X*.*X  
+    0x9C, 0x0D,         //  X.*.X  
+    0xDC, 0x0D,         //  X.X.X  
+    0xCC, 0x0C,         //  X X X  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 78
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x1C, 0x0D,         //  X. .X  
+    0x2C, 0x0D,         //  X* .X  
+    0x2C, 0x0D,         //  X* .X  
+    0x5C, 0x0D,         //  X...X  
+    0x9C, 0x0D,         //  X.*.X  
+    0x5C, 0x0D,         //  X...X  
+    0x1C, 0x0E,         //  X. *X  
+    0x1C, 0x0E,         //  X. *X  
+    0x1C, 0x0D,         //  X. .X  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 79
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF4, 0x07,         //  .XXX.  
+    0x38, 0x0B,         //  *X X*  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x38, 0x0B,         //  *X X*  
+    0xF4, 0x07,         //  .XXX.  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 80
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xFC, 0x07,         //  XXXX.  
+    0x1C, 0x0E,         //  X. *X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x5C, 0x0A,         //  X..**  
+    0xFC, 0x06,         //  XXX*.  
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 81
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF4, 0x07,         //  .XXX.  
+    0x38, 0x0B,         //  *X X*  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x38, 0x0B,         //  *X X*  
+    0xF4, 0x07,         //  .XXX.  
+    0x00, 0x07,         //     X.  
+    0x00, 0x0D,         //     .X  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 82
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xFC, 0x07,         //  XXXX.  
+    0x1C, 0x0E,         //  X. *X  
+    0x1C, 0x0D,         //  X. .X  
+    0x5C, 0x0E,         //  X..*X  
+    0xFC, 0x07,         //  XXXX.  
+    0x5C, 0x07,         //  X..X.  
+    0x1C, 0x0A,         //  X. **  
+    0x1C, 0x1D,         //  X. .X. 
+    0x1C, 0x34,         //  X.  .X 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 83
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF4, 0x0F,         //  .XXXX  
+    0x2C, 0x05,         //  X* ..  
+    0x1C, 0x00,         //  X.     
+    0x7C, 0x00,         //  XX.    
+    0xE4, 0x07,         //  .*XX.  
+    0x40, 0x0F,         //    .XX  
+    0x00, 0x0D,         //     .X  
+    0x0C, 0x0E,         //  X  *X  
+    0xFC, 0x07,         //  XXXX.  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 84
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xFC, 0x3F,         //  XXXXXX 
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 85
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x2C, 0x0E,         //  X* *X  
+    0xF4, 0x07,         //  .XXX.  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 86
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x07, 0x34,         // X.   .X 
+    0x0A, 0x28,         // **   ** 
+    0x0D, 0x1C,         // .X   X. 
+    0x1C, 0x0D,         //  X. .X  
+    0x28, 0x0A,         //  ** **  
+    0x34, 0x07,         //  .X X.  
+    0x70, 0x03,         //   X.X   
+    0xE0, 0x02,         //   *X*   
+    0xD0, 0x01,         //   .X.   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 87
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x07, 0x34,         // X.   .X 
+    0x07, 0x34,         // X.   .X 
+    0x07, 0x34,         // X.   .X 
+    0xC6, 0x24,         // *. X .* 
+    0xD6, 0x25,         // *..X..* 
+    0x65, 0x16,         // ..*.*.. 
+    0x29, 0x1A,         // .** **. 
+    0x1D, 0x1D,         // .X. .X. 
+    0x0C, 0x0C,         //  X   X  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 88
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x07, 0x34,         // X.   .X 
+    0x1D, 0x1D,         // .X. .X. 
+    0x34, 0x06,         //  .X *.  
+    0xB0, 0x03,         //   X*X   
+    0xD0, 0x01,         //   .X.   
+    0xB0, 0x03,         //   X*X   
+    0x24, 0x06,         //  .* *.  
+    0x1D, 0x1D,         // .X. .X. 
+    0x07, 0x38,         // X.   *X 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 89
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x07, 0x34,         // X.   .X 
+    0x0D, 0x1C,         // .X   X. 
+    0x18, 0x09,         //  *. .*  
+    0x74, 0x07,         //  .X.X.  
+    0xD0, 0x02,         //   .X*   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 90
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xFC, 0x0F,         //  XXXXX  
+    0x00, 0x0E,         //     *X  
+    0x40, 0x07,         //    .X.  
+    0x80, 0x02,         //    **   
+    0xD0, 0x01,         //   .X.   
+    0xA0, 0x00,         //   **    
+    0x74, 0x00,         //  .X.    
+    0x2C, 0x00,         //  X*     
+    0xFC, 0x0F,         //  XXXXX  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 91
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF0, 0x03,         //   XXX   
+    0x70, 0x00,         //   X.    
+    0x70, 0x00,         //   X.    
+    0x70, 0x00,         //   X.    
+    0x70, 0x00,         //   X.    
+    0x70, 0x00,         //   X.    
+    0x70, 0x00,         //   X.    
+    0x70, 0x00,         //   X.    
+    0x70, 0x00,         //   X.    
+    0x70, 0x00,         //   X.    
+    0xF0, 0x03,         //   XXX   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 92
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x1C, 0x00,         //  X.     
+    0x34, 0x00,         //  .X     
+    0x70, 0x00,         //   X.    
+    0xA0, 0x00,         //   **    
+    0xD0, 0x01,         //   .X.   
+    0x80, 0x02,         //    **   
+    0x40, 0x03,         //    .X   
+    0x00, 0x07,         //     X.  
+    0x00, 0x0D,         //     .X  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 93
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF0, 0x03,         //   XXX   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0xF0, 0x03,         //   XXX   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 94
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xD0, 0x01,         //   .X.   
+    0xE0, 0x02,         //   *X*   
+    0x74, 0x03,         //  .X.X   
+    0x24, 0x06,         //  .* *.  
+    0x1C, 0x0D,         //  X. .X  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 95
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xFF, 0x3F,         // XXXXXXX 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 96
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xC0, 0x02,         //    X*   
+    0x40, 0x03,         //    .X   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 97
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF4, 0x0B,         //  .XXX*  
+    0x14, 0x0D,         //  .. .X  
+    0xF4, 0x0F,         //  .XXXX  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0E,         //  X. *X  
+    0xF8, 0x0E,         //  *XX*X  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 98
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0xEC, 0x07,         //  X*XX.  
+    0x2C, 0x0E,         //  X* *X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x2C, 0x0E,         //  X* *X  
+    0xEC, 0x07,         //  X*XX.  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 99
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF4, 0x0F,         //  .XXXX  
+    0x6C, 0x0C,         //  X*. X  
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x6C, 0x0C,         //  X*. X  
+    0xF4, 0x0F,         //  .XXXX  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 100
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x0D,         //     .X  
+    0x00, 0x0D,         //     .X  
+    0x00, 0x0D,         //     .X  
+    0xF4, 0x0E,         //  .XX*X  
+    0x2C, 0x0E,         //  X* *X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x2C, 0x0E,         //  X* *X  
+    0xF4, 0x0E,         //  .XX*X  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 101
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF4, 0x07,         //  .XXX.  
+    0x1C, 0x0D,         //  X. .X  
+    0xFC, 0x0F,         //  XXXXX  
+    0x1C, 0x00,         //  X.     
+    0x2C, 0x0C,         //  X*  X  
+    0xF4, 0x0B,         //  .XXX*  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 102
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x80, 0x0F,         //    *XX  
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xFC, 0x0F,         //  XXXXX  
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 103
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF4, 0x2F,         //  .XXXX* 
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0xF4, 0x07,         //  .XXX.  
+    0x1C, 0x00,         //  X.     
+    0xFC, 0x1F,         //  XXXXX. 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0xF4, 0x1F,         //  .XXXX. 
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 104
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0xEC, 0x07,         //  X*XX.  
+    0x2C, 0x0D,         //  X* .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 105
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xD0, 0x01,         //   .X.   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF8, 0x01,         //  *XX.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xFC, 0x1F,         //  XXXXX. 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 106
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x40, 0x03,         //    .X   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF4, 0x03,         //  .XXX   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x4C, 0x03,         //  X .X   
+    0xFC, 0x01,         //  XXX.   
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 107
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x2D,         //  X. .X* 
+    0x5C, 0x07,         //  X..X.  
+    0xDC, 0x01,         //  X.X.   
+    0x5C, 0x03,         //  X..X   
+    0x1C, 0x09,         //  X. .*  
+    0x1C, 0x28,         //  X.  ** 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 108
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF8, 0x01,         //  *XX.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xFC, 0x1F,         //  XXXXX. 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 109
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xBC, 0x0F,         //  XX*XX  
+    0xDC, 0x0D,         //  X.X.X  
+    0xDC, 0x0D,         //  X.X.X  
+    0xDC, 0x0D,         //  X.X.X  
+    0xDC, 0x0D,         //  X.X.X  
+    0xDC, 0x0D,         //  X.X.X  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 110
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xEC, 0x07,         //  X*XX.  
+    0x2C, 0x0D,         //  X* .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 111
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF4, 0x07,         //  .XXX.  
+    0x2C, 0x0E,         //  X* *X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x2C, 0x0E,         //  X* *X  
+    0xF4, 0x07,         //  .XXX.  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 112
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xEC, 0x07,         //  X*XX.  
+    0x2C, 0x0E,         //  X* *X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x2C, 0x0E,         //  X* *X  
+    0xEC, 0x07,         //  X*XX.  
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 113
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF4, 0x0E,         //  .XX*X  
+    0x2C, 0x0E,         //  X* *X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x2C, 0x0E,         //  X* *X  
+    0xF4, 0x0E,         //  .XX*X  
+    0x00, 0x0D,         //     .X  
+    0x00, 0x0D,         //     .X  
+    0x00, 0x0D,         //     .X  
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 114
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x70, 0x0F,         //   X.XX  
+    0xB0, 0x0C,         //   X* X  
+    0x70, 0x00,         //   X.    
+    0x70, 0x00,         //   X.    
+    0x70, 0x00,         //   X.    
+    0x70, 0x00,         //   X.    
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 115
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF8, 0x0F,         //  *XXXX  
+    0x1C, 0x05,         //  X. ..  
+    0xB8, 0x01,         //  *X*.   
+    0x50, 0x0F,         //   ..XX  
+    0x0C, 0x0D,         //  X  .X  
+    0xFC, 0x07,         //  XXXX.  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 116
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x80, 0x01,         //    *.   
+    0xC0, 0x01,         //    X.   
+    0xFC, 0x0F,         //  XXXXX  
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0x80, 0x0F,         //    *XX  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 117
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0D,         //  X. .X  
+    0x1C, 0x0E,         //  X. *X  
+    0xF4, 0x0E,         //  .XX*X  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 118
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x1C, 0x0D,         //  X. .X  
+    0x28, 0x0A,         //  ** **  
+    0x34, 0x07,         //  .X X.  
+    0x70, 0x03,         //   X.X   
+    0xA0, 0x02,         //   ***   
+    0xD0, 0x01,         //   .X.   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 119
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xD3, 0x31,         // X .X. X 
+    0xE7, 0x36,         // X.*X*.X 
+    0x77, 0x37,         // X.X.X.X 
+    0x3A, 0x2B,         // **X X** 
+    0x2D, 0x1E,         // .X* *X. 
+    0x1D, 0x1D,         // .X. .X. 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 120
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x28, 0x0A,         //  ** **  
+    0x74, 0x07,         //  .X.X.  
+    0xD0, 0x01,         //   .X.   
+    0xD0, 0x01,         //   .X.   
+    0x74, 0x07,         //  .X.X.  
+    0x1C, 0x0D,         //  X. .X  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 121
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x1C, 0x0D,         //  X. .X  
+    0x28, 0x0A,         //  ** **  
+    0x34, 0x07,         //  .X X.  
+    0x70, 0x03,         //   X.X   
+    0xD0, 0x02,         //   .X*   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x00,         //    X    
+    0x90, 0x00,         //   .*    
+    0x7C, 0x00,         //  XX.    
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 122
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xFC, 0x0F,         //  XXXXX  
+    0x00, 0x0A,         //     **  
+    0x80, 0x02,         //    **   
+    0xA0, 0x00,         //   **    
+    0x34, 0x00,         //  .X     
+    0xFC, 0x0F,         //  XXXXX  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 123
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x40, 0x0F,         //    .XX  
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xD4, 0x01,         //  ..X.   
+    0x7C, 0x00,         //  XX.    
+    0xD0, 0x01,         //   .X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0x40, 0x0F,         //    .XX  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 124
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xC0, 0x00,         //    X    
+    0xC0, 0x00,         //    X    
+    0xC0, 0x00,         //    X    
+    0xC0, 0x00,         //    X    
+    0xC0, 0x00,         //    X    
+    0xC0, 0x00,         //    X    
+    0xC0, 0x00,         //    X    
+    0xC0, 0x00,         //    X    
+    0xC0, 0x00,         //    X    
+    0xC0, 0x00,         //    X    
+    0xC0, 0x00,         //    X    
+    0xC0, 0x00,         //    X    
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 125
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x7C, 0x00,         //  XX.    
+    0xD0, 0x00,         //   .X    
+    0xD0, 0x00,         //   .X    
+    0xD0, 0x00,         //   .X    
+    0xD0, 0x05,         //   .X..  
+    0x40, 0x0F,         //    .XX  
+    0xD0, 0x01,         //   .X.   
+    0xD0, 0x00,         //   .X    
+    0xD0, 0x00,         //   .X    
+    0xD0, 0x00,         //   .X    
+    0x7C, 0x00,         //  XX.    
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 126
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xBC, 0x05,         //  XX*..  
+    0x94, 0x0F,         //  ..*XX  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+};
+
+/*********************************
+ * TTF Font File Structure
+ * Label: DroidSansMono_14
+ * Description:  Height: 19 pixels, 2 bits per pixel, Range: ' ' to '~'
+ ***********************************/
+
+extern const char __DroidSansMono_14[] __attribute__((aligned(2)));
+
+const FONT_FLASH DroidSansMono_14 =
+{
+    (XFLASH | COMP_NONE),
+    (GFX_FONT_SPACE char *)__DroidSansMono_14
+};
+
+const char __DroidSansMono_14[] __attribute__((aligned(2))) =
+{
+/****************************************
+ * Font header
+ ****************************************/
+    0x00,           // Font ID
+    0x04,           // Font information:  2 bits per pixel, Characters zero degress rotation
+    0x20, 0x00,     // First Character
+    0x7E, 0x00,     // Last Character
+    0x13, 0x00,     // Height
+/****************************************
+ * Font Glyph Table
+ ****************************************/
+    0x08,              // width of the glyph
+    0x84, 0x01, 0x00,       // Character - 32, offset (0x00000184)
+    0x08,              // width of the glyph
+    0xAA, 0x01, 0x00,       // Character - 33, offset (0x000001AA)
+    0x08,              // width of the glyph
+    0xD0, 0x01, 0x00,       // Character - 34, offset (0x000001D0)
+    0x08,              // width of the glyph
+    0xF6, 0x01, 0x00,       // Character - 35, offset (0x000001F6)
+    0x08,              // width of the glyph
+    0x1C, 0x02, 0x00,       // Character - 36, offset (0x0000021C)
+    0x08,              // width of the glyph
+    0x42, 0x02, 0x00,       // Character - 37, offset (0x00000242)
+    0x08,              // width of the glyph
+    0x68, 0x02, 0x00,       // Character - 38, offset (0x00000268)
+    0x08,              // width of the glyph
+    0x8E, 0x02, 0x00,       // Character - 39, offset (0x0000028E)
+    0x08,              // width of the glyph
+    0xB4, 0x02, 0x00,       // Character - 40, offset (0x000002B4)
+    0x08,              // width of the glyph
+    0xDA, 0x02, 0x00,       // Character - 41, offset (0x000002DA)
+    0x08,              // width of the glyph
+    0x00, 0x03, 0x00,       // Character - 42, offset (0x00000300)
+    0x08,              // width of the glyph
+    0x26, 0x03, 0x00,       // Character - 43, offset (0x00000326)
+    0x08,              // width of the glyph
+    0x4C, 0x03, 0x00,       // Character - 44, offset (0x0000034C)
+    0x08,              // width of the glyph
+    0x72, 0x03, 0x00,       // Character - 45, offset (0x00000372)
+    0x08,              // width of the glyph
+    0x98, 0x03, 0x00,       // Character - 46, offset (0x00000398)
+    0x08,              // width of the glyph
+    0xBE, 0x03, 0x00,       // Character - 47, offset (0x000003BE)
+    0x08,              // width of the glyph
+    0xE4, 0x03, 0x00,       // Character - 48, offset (0x000003E4)
+    0x08,              // width of the glyph
+    0x0A, 0x04, 0x00,       // Character - 49, offset (0x0000040A)
+    0x08,              // width of the glyph
+    0x30, 0x04, 0x00,       // Character - 50, offset (0x00000430)
+    0x08,              // width of the glyph
+    0x56, 0x04, 0x00,       // Character - 51, offset (0x00000456)
+    0x08,              // width of the glyph
+    0x7C, 0x04, 0x00,       // Character - 52, offset (0x0000047C)
+    0x08,              // width of the glyph
+    0xA2, 0x04, 0x00,       // Character - 53, offset (0x000004A2)
+    0x08,              // width of the glyph
+    0xC8, 0x04, 0x00,       // Character - 54, offset (0x000004C8)
+    0x08,              // width of the glyph
+    0xEE, 0x04, 0x00,       // Character - 55, offset (0x000004EE)
+    0x08,              // width of the glyph
+    0x14, 0x05, 0x00,       // Character - 56, offset (0x00000514)
+    0x08,              // width of the glyph
+    0x3A, 0x05, 0x00,       // Character - 57, offset (0x0000053A)
+    0x08,              // width of the glyph
+    0x60, 0x05, 0x00,       // Character - 58, offset (0x00000560)
+    0x08,              // width of the glyph
+    0x86, 0x05, 0x00,       // Character - 59, offset (0x00000586)
+    0x08,              // width of the glyph
+    0xAC, 0x05, 0x00,       // Character - 60, offset (0x000005AC)
+    0x08,              // width of the glyph
+    0xD2, 0x05, 0x00,       // Character - 61, offset (0x000005D2)
+    0x08,              // width of the glyph
+    0xF8, 0x05, 0x00,       // Character - 62, offset (0x000005F8)
+    0x08,              // width of the glyph
+    0x1E, 0x06, 0x00,       // Character - 63, offset (0x0000061E)
+    0x08,              // width of the glyph
+    0x44, 0x06, 0x00,       // Character - 64, offset (0x00000644)
+    0x08,              // width of the glyph
+    0x6A, 0x06, 0x00,       // Character - 65, offset (0x0000066A)
+    0x08,              // width of the glyph
+    0x90, 0x06, 0x00,       // Character - 66, offset (0x00000690)
+    0x08,              // width of the glyph
+    0xB6, 0x06, 0x00,       // Character - 67, offset (0x000006B6)
+    0x08,              // width of the glyph
+    0xDC, 0x06, 0x00,       // Character - 68, offset (0x000006DC)
+    0x08,              // width of the glyph
+    0x02, 0x07, 0x00,       // Character - 69, offset (0x00000702)
+    0x08,              // width of the glyph
+    0x28, 0x07, 0x00,       // Character - 70, offset (0x00000728)
+    0x08,              // width of the glyph
+    0x4E, 0x07, 0x00,       // Character - 71, offset (0x0000074E)
+    0x08,              // width of the glyph
+    0x74, 0x07, 0x00,       // Character - 72, offset (0x00000774)
+    0x08,              // width of the glyph
+    0x9A, 0x07, 0x00,       // Character - 73, offset (0x0000079A)
+    0x08,              // width of the glyph
+    0xC0, 0x07, 0x00,       // Character - 74, offset (0x000007C0)
+    0x08,              // width of the glyph
+    0xE6, 0x07, 0x00,       // Character - 75, offset (0x000007E6)
+    0x08,              // width of the glyph
+    0x0C, 0x08, 0x00,       // Character - 76, offset (0x0000080C)
+    0x08,              // width of the glyph
+    0x32, 0x08, 0x00,       // Character - 77, offset (0x00000832)
+    0x08,              // width of the glyph
+    0x58, 0x08, 0x00,       // Character - 78, offset (0x00000858)
+    0x08,              // width of the glyph
+    0x7E, 0x08, 0x00,       // Character - 79, offset (0x0000087E)
+    0x08,              // width of the glyph
+    0xA4, 0x08, 0x00,       // Character - 80, offset (0x000008A4)
+    0x08,              // width of the glyph
+    0xCA, 0x08, 0x00,       // Character - 81, offset (0x000008CA)
+    0x08,              // width of the glyph
+    0xF0, 0x08, 0x00,       // Character - 82, offset (0x000008F0)
+    0x08,              // width of the glyph
+    0x16, 0x09, 0x00,       // Character - 83, offset (0x00000916)
+    0x08,              // width of the glyph
+    0x3C, 0x09, 0x00,       // Character - 84, offset (0x0000093C)
+    0x08,              // width of the glyph
+    0x62, 0x09, 0x00,       // Character - 85, offset (0x00000962)
+    0x08,              // width of the glyph
+    0x88, 0x09, 0x00,       // Character - 86, offset (0x00000988)
+    0x08,              // width of the glyph
+    0xAE, 0x09, 0x00,       // Character - 87, offset (0x000009AE)
+    0x08,              // width of the glyph
+    0xD4, 0x09, 0x00,       // Character - 88, offset (0x000009D4)
+    0x08,              // width of the glyph
+    0xFA, 0x09, 0x00,       // Character - 89, offset (0x000009FA)
+    0x08,              // width of the glyph
+    0x20, 0x0A, 0x00,       // Character - 90, offset (0x00000A20)
+    0x08,              // width of the glyph
+    0x46, 0x0A, 0x00,       // Character - 91, offset (0x00000A46)
+    0x08,              // width of the glyph
+    0x6C, 0x0A, 0x00,       // Character - 92, offset (0x00000A6C)
+    0x08,              // width of the glyph
+    0x92, 0x0A, 0x00,       // Character - 93, offset (0x00000A92)
+    0x08,              // width of the glyph
+    0xB8, 0x0A, 0x00,       // Character - 94, offset (0x00000AB8)
+    0x08,              // width of the glyph
+    0xDE, 0x0A, 0x00,       // Character - 95, offset (0x00000ADE)
+    0x08,              // width of the glyph
+    0x04, 0x0B, 0x00,       // Character - 96, offset (0x00000B04)
+    0x08,              // width of the glyph
+    0x2A, 0x0B, 0x00,       // Character - 97, offset (0x00000B2A)
+    0x08,              // width of the glyph
+    0x50, 0x0B, 0x00,       // Character - 98, offset (0x00000B50)
+    0x08,              // width of the glyph
+    0x76, 0x0B, 0x00,       // Character - 99, offset (0x00000B76)
+    0x08,              // width of the glyph
+    0x9C, 0x0B, 0x00,       // Character - 100, offset (0x00000B9C)
+    0x08,              // width of the glyph
+    0xC2, 0x0B, 0x00,       // Character - 101, offset (0x00000BC2)
+    0x08,              // width of the glyph
+    0xE8, 0x0B, 0x00,       // Character - 102, offset (0x00000BE8)
+    0x08,              // width of the glyph
+    0x0E, 0x0C, 0x00,       // Character - 103, offset (0x00000C0E)
+    0x08,              // width of the glyph
+    0x34, 0x0C, 0x00,       // Character - 104, offset (0x00000C34)
+    0x08,              // width of the glyph
+    0x5A, 0x0C, 0x00,       // Character - 105, offset (0x00000C5A)
+    0x08,              // width of the glyph
+    0x80, 0x0C, 0x00,       // Character - 106, offset (0x00000C80)
+    0x08,              // width of the glyph
+    0xA6, 0x0C, 0x00,       // Character - 107, offset (0x00000CA6)
+    0x08,              // width of the glyph
+    0xCC, 0x0C, 0x00,       // Character - 108, offset (0x00000CCC)
+    0x08,              // width of the glyph
+    0xF2, 0x0C, 0x00,       // Character - 109, offset (0x00000CF2)
+    0x08,              // width of the glyph
+    0x18, 0x0D, 0x00,       // Character - 110, offset (0x00000D18)
+    0x08,              // width of the glyph
+    0x3E, 0x0D, 0x00,       // Character - 111, offset (0x00000D3E)
+    0x08,              // width of the glyph
+    0x64, 0x0D, 0x00,       // Character - 112, offset (0x00000D64)
+    0x08,              // width of the glyph
+    0x8A, 0x0D, 0x00,       // Character - 113, offset (0x00000D8A)
+    0x08,              // width of the glyph
+    0xB0, 0x0D, 0x00,       // Character - 114, offset (0x00000DB0)
+    0x08,              // width of the glyph
+    0xD6, 0x0D, 0x00,       // Character - 115, offset (0x00000DD6)
+    0x08,              // width of the glyph
+    0xFC, 0x0D, 0x00,       // Character - 116, offset (0x00000DFC)
+    0x08,              // width of the glyph
+    0x22, 0x0E, 0x00,       // Character - 117, offset (0x00000E22)
+    0x08,              // width of the glyph
+    0x48, 0x0E, 0x00,       // Character - 118, offset (0x00000E48)
+    0x08,              // width of the glyph
+    0x6E, 0x0E, 0x00,       // Character - 119, offset (0x00000E6E)
+    0x08,              // width of the glyph
+    0x94, 0x0E, 0x00,       // Character - 120, offset (0x00000E94)
+    0x08,              // width of the glyph
+    0xBA, 0x0E, 0x00,       // Character - 121, offset (0x00000EBA)
+    0x08,              // width of the glyph
+    0xE0, 0x0E, 0x00,       // Character - 122, offset (0x00000EE0)
+    0x08,              // width of the glyph
+    0x06, 0x0F, 0x00,       // Character - 123, offset (0x00000F06)
+    0x08,              // width of the glyph
+    0x2C, 0x0F, 0x00,       // Character - 124, offset (0x00000F2C)
+    0x08,              // width of the glyph
+    0x52, 0x0F, 0x00,       // Character - 125, offset (0x00000F52)
+    0x08,              // width of the glyph
+    0x78, 0x0F, 0x00,       // Character - 126, offset (0x00000F78)
+/***********************************
+ * Font Characters
+ ***********************************/
+/***********************************
+ * Character - 32
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 33
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xC0, 0x03,         //    XX   
+    0xC0, 0x02,         //    X*   
+    0xC0, 0x02,         //    X*   
+    0xC0, 0x02,         //    X*   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0x80, 0x01,         //    *.   
+    0x00, 0x00,         //         
+    0xC0, 0x02,         //    X*   
+    0xC0, 0x02,         //    X*   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 34
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xB0, 0x2C,         //   X* X* 
+    0xB0, 0x2C,         //   X* X* 
+    0x70, 0x1C,         //   X. X. 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 35
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xD0, 0x34,         //   .X .X 
+    0xD0, 0x34,         //   .X .X 
+    0xA0, 0x28,         //   ** ** 
+    0xFC, 0xFF,         //  XXXXXXX
+    0x70, 0x1C,         //   X. X. 
+    0x34, 0x0D,         //  .X .X  
+    0xFF, 0x3F,         // XXXXXXX 
+    0x28, 0x0A,         //  ** **  
+    0x1C, 0x07,         //  X. X.  
+    0x1C, 0x07,         //  X. X.  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 36
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xC0, 0x00,         //    X    
+    0xC0, 0x00,         //    X    
+    0xF4, 0x0B,         //  .XXX*  
+    0xEC, 0x05,         //  X*X..  
+    0xDC, 0x00,         //  X.X    
+    0xEC, 0x00,         //  X*X    
+    0xF4, 0x01,         //  .XX.   
+    0xD0, 0x0B,         //   .XX*  
+    0xC0, 0x0D,         //    X.X  
+    0xC0, 0x0D,         //    X.X  
+    0xD8, 0x0E,         //  *.X*X  
+    0xFC, 0x07,         //  XXXX.  
+    0xC0, 0x00,         //    X    
+    0xC0, 0x00,         //    X    
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 37
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x7D, 0x34,         // .XX. .X 
+    0xD7, 0x1C,         // X..X X. 
+    0xD7, 0x0D,         // X..X.X  
+    0xD7, 0x07,         // X..XX.  
+    0xBD, 0x03,         // .XX*X   
+    0xC0, 0x7E,         //    X*XX.
+    0xD0, 0xD7,         //   .XX..X
+    0x70, 0xD7,         //   X.X..X
+    0x34, 0xD7,         //  .X X..X
+    0x1C, 0x7D,         //  X. .XX.
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 38
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xD0, 0x07,         //   .XX.  
+    0x70, 0x0D,         //   X..X  
+    0x70, 0x0D,         //   X..X  
+    0xB0, 0x0A,         //   X***  
+    0xD0, 0x03,         //   .XX   
+    0xB4, 0x37,         //  .X*X.X 
+    0x2C, 0x3B,         //  X* X*X 
+    0x1C, 0x3D,         //  X. .XX 
+    0x7C, 0x7D,         //  XX..XX.
+    0xF4, 0xF7,         //  .XXX.XX
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 39
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xC0, 0x02,         //    X*   
+    0xC0, 0x02,         //    X*   
+    0xC0, 0x01,         //    X.   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 40
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x40, 0x0B,         //    .X*  
+    0xC0, 0x03,         //    XX   
+    0xD0, 0x01,         //   .X.   
+    0xE0, 0x00,         //   *X    
+    0xB0, 0x00,         //   X*    
+    0x70, 0x00,         //   X.    
+    0x70, 0x00,         //   X.    
+    0xB0, 0x00,         //   X*    
+    0xE0, 0x00,         //   *X    
+    0xD0, 0x01,         //   .X.   
+    0xC0, 0x03,         //    XX   
+    0x40, 0x0B,         //    .X*  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 41
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xE0, 0x01,         //   *X.   
+    0xC0, 0x03,         //    XX   
+    0x40, 0x07,         //    .X.  
+    0x00, 0x0B,         //     X*  
+    0x00, 0x0E,         //     *X  
+    0x00, 0x0D,         //     .X  
+    0x00, 0x0D,         //     .X  
+    0x00, 0x0E,         //     *X  
+    0x00, 0x0B,         //     X*  
+    0x40, 0x07,         //    .X.  
+    0xC0, 0x03,         //    XX   
+    0xE0, 0x01,         //   *X.   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 42
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x40, 0x07,         //    .X.  
+    0x0C, 0xC7,         //  X  X. X
+    0xFC, 0xFB,         //  XXXX*XX
+    0x94, 0x5F,         //  ..*XX..
+    0xD0, 0x1D,         //   .X.X. 
+    0xA0, 0x28,         //   ** ** 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 43
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x03,         //     X   
+    0x00, 0x03,         //     X   
+    0x00, 0x03,         //     X   
+    0xFC, 0xFF,         //  XXXXXXX
+    0x00, 0x03,         //     X   
+    0x00, 0x03,         //     X   
+    0x00, 0x03,         //     X   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 44
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x80, 0x03,         //    *X   
+    0xC0, 0x02,         //    X*   
+    0xC0, 0x01,         //    X.   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 45
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF0, 0x0F,         //   XXXX  
+    0x50, 0x05,         //   ....  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 46
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xC0, 0x03,         //    XX   
+    0xC0, 0x03,         //    XX   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 47
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x38,         //      *X 
+    0x00, 0x1D,         //     .X. 
+    0x00, 0x0E,         //     *X  
+    0x40, 0x07,         //    .X.  
+    0x40, 0x03,         //    .X   
+    0xC0, 0x01,         //    X.   
+    0xD0, 0x00,         //   .X    
+    0xB0, 0x00,         //   X*    
+    0x74, 0x00,         //  .X.    
+    0x2C, 0x00,         //  X*     
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 48
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xE0, 0x0B,         //   *XX*  
+    0x74, 0x1D,         //  .X..X. 
+    0x2C, 0x38,         //  X*  *X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x2C, 0x38,         //  X*  *X 
+    0x74, 0x1D,         //  .X..X. 
+    0xE0, 0x0B,         //   *XX*  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 49
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x40, 0x07,         //    .X.  
+    0xD0, 0x07,         //   .XX.  
+    0x70, 0x07,         //   X.X.  
+    0x00, 0x07,         //     X.  
+    0x00, 0x07,         //     X.  
+    0x00, 0x07,         //     X.  
+    0x00, 0x07,         //     X.  
+    0x00, 0x07,         //     X.  
+    0x00, 0x07,         //     X.  
+    0x00, 0x07,         //     X.  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 50
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF4, 0x1F,         //  .XXXX. 
+    0x68, 0x3D,         //  **..XX 
+    0x00, 0x34,         //      .X 
+    0x00, 0x38,         //      *X 
+    0x00, 0x2D,         //     .X* 
+    0x00, 0x0F,         //     XX  
+    0x80, 0x07,         //    *X.  
+    0xE0, 0x01,         //   *X.   
+    0x78, 0x00,         //  *X.    
+    0xFC, 0x3F,         //  XXXXXX 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 51
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF4, 0x1F,         //  .XXXX. 
+    0x68, 0x3D,         //  **..XX 
+    0x00, 0x34,         //      .X 
+    0x00, 0x2D,         //     .X* 
+    0xC0, 0x1F,         //    XXX. 
+    0x00, 0x3D,         //     .XX 
+    0x00, 0x34,         //      .X 
+    0x00, 0x34,         //      .X 
+    0x18, 0x2D,         //  *. .X* 
+    0xFC, 0x1B,         //  XXXX*. 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 52
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x0D,         //     .X  
+    0x40, 0x0F,         //    .XX  
+    0x80, 0x0E,         //    **X  
+    0xD0, 0x0D,         //   .X.X  
+    0x60, 0x0D,         //   *..X  
+    0x34, 0x0D,         //  .X .X  
+    0x1C, 0x0D,         //  X. .X  
+    0xFC, 0xBF,         //  XXXXXX*
+    0x00, 0x0D,         //     .X  
+    0x00, 0x0D,         //     .X  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 53
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xFC, 0x3F,         //  XXXXXX 
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0xFC, 0x1B,         //  XXXX*. 
+    0x54, 0x3D,         //  ....XX 
+    0x00, 0x34,         //      .X 
+    0x00, 0x34,         //      .X 
+    0x18, 0x2D,         //  *. .X* 
+    0xFC, 0x1B,         //  XXXX*. 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 54
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x90, 0x3F,         //   .*XXX 
+    0xF4, 0x15,         //  .XX... 
+    0x78, 0x00,         //  *X.    
+    0x2C, 0x00,         //  X*     
+    0xEC, 0x1F,         //  X*XXX. 
+    0x7C, 0x3D,         //  XX..XX 
+    0x1C, 0x34,         //  X.  .X 
+    0x2C, 0x34,         //  X*  .X 
+    0x78, 0x2D,         //  *X..X* 
+    0xE0, 0x1F,         //   *XXX. 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 55
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xFC, 0x3F,         //  XXXXXX 
+    0x00, 0x38,         //      *X 
+    0x00, 0x1C,         //      X. 
+    0x00, 0x0D,         //     .X  
+    0x00, 0x0B,         //     X*  
+    0x40, 0x07,         //    .X.  
+    0x80, 0x03,         //    *X   
+    0xD0, 0x01,         //   .X.   
+    0xE0, 0x00,         //   *X    
+    0xB0, 0x00,         //   X*    
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 56
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF4, 0x1F,         //  .XXXX. 
+    0x7C, 0x3D,         //  XX..XX 
+    0x1C, 0x34,         //  X.  .X 
+    0x2C, 0x2C,         //  X*  X* 
+    0xF4, 0x0B,         //  .XXX*  
+    0x74, 0x1E,         //  .X.*X. 
+    0x2C, 0x38,         //  X*  *X 
+    0x1C, 0x34,         //  X.  .X 
+    0x7C, 0x3D,         //  XX..XX 
+    0xF4, 0x1F,         //  .XXXX. 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 57
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF4, 0x0B,         //  .XXX*  
+    0x78, 0x1D,         //  *X..X. 
+    0x1C, 0x38,         //  X.  *X 
+    0x1C, 0x34,         //  X.  .X 
+    0x7C, 0x3D,         //  XX..XX 
+    0xF4, 0x3B,         //  .XXX*X 
+    0x00, 0x38,         //      *X 
+    0x00, 0x2D,         //     .X* 
+    0x4C, 0x1F,         //  X .XX. 
+    0xFC, 0x06,         //  XXX*.  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 58
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xC0, 0x03,         //    XX   
+    0xC0, 0x03,         //    XX   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xC0, 0x03,         //    XX   
+    0xC0, 0x03,         //    XX   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 59
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xC0, 0x03,         //    XX   
+    0xC0, 0x03,         //    XX   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x80, 0x03,         //    *X   
+    0xC0, 0x02,         //    X*   
+    0xC0, 0x01,         //    X.   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 60
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x34,         //      .X 
+    0x40, 0x1F,         //    .XX. 
+    0xE4, 0x02,         //  .*X*   
+    0x7C, 0x00,         //  XX.    
+    0xE4, 0x02,         //  .*X*   
+    0x40, 0x1F,         //    .XX. 
+    0x00, 0x34,         //      .X 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 61
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xFC, 0x3F,         //  XXXXXX 
+    0x00, 0x00,         //         
+    0xFC, 0x3F,         //  XXXXXX 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 62
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x1C, 0x00,         //  X.     
+    0xF4, 0x01,         //  .XX.   
+    0x80, 0x1B,         //    *X*. 
+    0x00, 0x3D,         //     .XX 
+    0x80, 0x1B,         //    *X*. 
+    0xF4, 0x01,         //  .XX.   
+    0x1C, 0x00,         //  X.     
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 63
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF8, 0x1F,         //  *XXXX. 
+    0x58, 0x3D,         //  *...XX 
+    0x00, 0x34,         //      .X 
+    0x00, 0x38,         //      *X 
+    0x00, 0x1E,         //     *X. 
+    0x80, 0x07,         //    *X.  
+    0xC0, 0x01,         //    X.   
+    0x00, 0x00,         //         
+    0xC0, 0x03,         //    XX   
+    0xC0, 0x03,         //    XX   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 64
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xE4, 0x1F,         //  .*XXX. 
+    0x6C, 0x74,         //  X*. .X.
+    0x0E, 0xE0,         // *X    *X
+    0xD7, 0xDF,         // X..XXX.X
+    0x77, 0xDC,         // X.X. X.X
+    0x33, 0xCC,         // X X  X X
+    0x73, 0xDD,         // X X..X.X
+    0xD7, 0x77,         // X..XX.X.
+    0x0A, 0x00,         // **      
+    0x6D, 0x14,         // .X*. .. 
+    0xE4, 0x2F,         //  .*XXX* 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 65
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xC0, 0x03,         //    XX   
+    0xD0, 0x07,         //   .XX.  
+    0xE0, 0x0B,         //   *XX*  
+    0x70, 0x0D,         //   X..X  
+    0x74, 0x1D,         //  .X..X. 
+    0x38, 0x2C,         //  *X  X* 
+    0xFC, 0x3F,         //  XXXXXX 
+    0x5D, 0x75,         // .X....X.
+    0x0E, 0xB0,         // *X    X*
+    0x07, 0xD0,         // X.    .X
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 66
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xFC, 0x1F,         //  XXXXX. 
+    0x5C, 0x3D,         //  X...XX 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x39,         //  X. .*X 
+    0xFC, 0x1F,         //  XXXXX. 
+    0x5C, 0x2D,         //  X...X* 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x5C, 0x3D,         //  X...XX 
+    0xFC, 0x1F,         //  XXXXX. 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 67
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xD0, 0x2F,         //   .XXX* 
+    0xB4, 0x15,         //  .X*... 
+    0x38, 0x00,         //  *X     
+    0x2C, 0x00,         //  X*     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x2C, 0x00,         //  X*     
+    0x38, 0x00,         //  *X     
+    0xB4, 0x15,         //  .X*... 
+    0xD0, 0x3F,         //   .XXXX 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 68
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xFC, 0x07,         //  XXXX.  
+    0x5C, 0x1E,         //  X..*X. 
+    0x1C, 0x2C,         //  X.  X* 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x38,         //  X.  *X 
+    0x1C, 0x2C,         //  X.  X* 
+    0x5C, 0x1E,         //  X..*X. 
+    0xFC, 0x07,         //  XXXX.  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 69
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xFC, 0x3F,         //  XXXXXX 
+    0x5C, 0x15,         //  X..... 
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0xFC, 0x3F,         //  XXXXXX 
+    0x5C, 0x15,         //  X..... 
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x5C, 0x15,         //  X..... 
+    0xFC, 0x3F,         //  XXXXXX 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 70
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xFC, 0x3F,         //  XXXXXX 
+    0x5C, 0x15,         //  X..... 
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0xFC, 0x3F,         //  XXXXXX 
+    0x5C, 0x15,         //  X..... 
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 71
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xD0, 0x2F,         //   .XXX* 
+    0xB4, 0x15,         //  .X*... 
+    0x38, 0x00,         //  *X     
+    0x2C, 0x00,         //  X*     
+    0x1C, 0x3E,         //  X. *XX 
+    0x1C, 0x35,         //  X. ..X 
+    0x1C, 0x34,         //  X.  .X 
+    0x3C, 0x34,         //  XX  .X 
+    0xB4, 0x39,         //  .X*.*X 
+    0xD0, 0x2F,         //   .XXX* 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 72
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0xFC, 0x3F,         //  XXXXXX 
+    0x5C, 0x35,         //  X....X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 73
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xFC, 0x1F,         //  XXXXX. 
+    0xD0, 0x01,         //   .X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xD0, 0x01,         //   .X.   
+    0xFC, 0x1F,         //  XXXXX. 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 74
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x0D,         //     .X  
+    0x00, 0x0D,         //     .X  
+    0x00, 0x0D,         //     .X  
+    0x00, 0x0D,         //     .X  
+    0x00, 0x0D,         //     .X  
+    0x00, 0x0D,         //     .X  
+    0x00, 0x0D,         //     .X  
+    0x00, 0x0D,         //     .X  
+    0x54, 0x0B,         //  ...X*  
+    0xFC, 0x06,         //  XXX*.  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 75
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x1C, 0xF0,         //  X.   XX
+    0x1C, 0x78,         //  X.  *X.
+    0x1C, 0x1D,         //  X. .X. 
+    0x5C, 0x07,         //  X..X.  
+    0xEC, 0x02,         //  X*X*   
+    0x7C, 0x07,         //  XX.X.  
+    0x1C, 0x0E,         //  X. *X  
+    0x1C, 0x2D,         //  X. .X* 
+    0x1C, 0x74,         //  X.  .X.
+    0x1C, 0xE0,         //  X.   *X
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 76
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x5C, 0x15,         //  X..... 
+    0xFC, 0x3F,         //  XXXXXX 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 77
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x07, 0x38,         // X.   *X 
+    0x0B, 0x38,         // X*   *X 
+    0x0B, 0x39,         // X*  .*X 
+    0x1B, 0x39,         // X*. .*X 
+    0x27, 0x36,         // X.* *.X 
+    0x37, 0x37,         // X.X X.X 
+    0x77, 0x36,         // X.X.*.X 
+    0xD7, 0x35,         // X..X..X 
+    0xD7, 0x35,         // X..X..X 
+    0xC7, 0x34,         // X. X .X 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 78
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x1C, 0x34,         //  X.  .X 
+    0x2C, 0x34,         //  X*  .X 
+    0x6C, 0x34,         //  X*. .X 
+    0x9C, 0x34,         //  X.* .X 
+    0x9C, 0x35,         //  X.*..X 
+    0x5C, 0x36,         //  X..*.X 
+    0x1C, 0x36,         //  X. *.X 
+    0x1C, 0x39,         //  X. .*X 
+    0x1C, 0x3C,         //  X.  XX 
+    0x1C, 0x34,         //  X.  .X 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 79
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xE0, 0x0B,         //   *XX*  
+    0x74, 0x1D,         //  .X..X. 
+    0x2C, 0x38,         //  X*  *X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x2C, 0x38,         //  X*  *X 
+    0x74, 0x1D,         //  .X..X. 
+    0xE0, 0x0B,         //   *XX*  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 80
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xFC, 0x1B,         //  XXXX*. 
+    0x5C, 0x3D,         //  X...XX 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x2D,         //  X. .X* 
+    0xFC, 0x1F,         //  XXXXX. 
+    0x5C, 0x01,         //  X...   
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 81
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xE0, 0x0B,         //   *XX*  
+    0x74, 0x1D,         //  .X..X. 
+    0x2C, 0x38,         //  X*  *X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x2C, 0x38,         //  X*  *X 
+    0x74, 0x1D,         //  .X..X. 
+    0xE0, 0x0B,         //   *XX*  
+    0x00, 0x0D,         //     .X  
+    0x00, 0x2C,         //      X* 
+    0x00, 0x24,         //      .* 
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 82
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xFC, 0x1B,         //  XXXX*. 
+    0x5C, 0x3D,         //  X...XX 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x2D,         //  X. .X* 
+    0xFC, 0x0B,         //  XXXX*  
+    0x5C, 0x0B,         //  X..X*  
+    0x1C, 0x1D,         //  X. .X. 
+    0x1C, 0x74,         //  X.  .X.
+    0x1C, 0xE0,         //  X.   *X
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 83
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF4, 0x2F,         //  .XXXX* 
+    0x7C, 0x25,         //  XX...* 
+    0x1C, 0x00,         //  X.     
+    0x7C, 0x00,         //  XX.    
+    0xF4, 0x06,         //  .XX*.  
+    0x90, 0x1F,         //   .*XX. 
+    0x00, 0x38,         //      *X 
+    0x00, 0x34,         //      .X 
+    0x58, 0x3D,         //  *...XX 
+    0xFC, 0x1B,         //  XXXX*. 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 84
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xFF, 0x3F,         // XXXXXXX 
+    0xD5, 0x15,         // ...X... 
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 85
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x2C, 0x38,         //  X*  *X 
+    0x78, 0x2D,         //  *X..X* 
+    0xF4, 0x1B,         //  .XXX*. 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 86
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x07, 0xE0,         // X.    *X
+    0x0E, 0xB0,         // *X    X*
+    0x1D, 0x74,         // .X.  .X.
+    0x1C, 0x34,         //  X.  .X 
+    0x38, 0x2C,         //  *X  X* 
+    0x74, 0x1D,         //  .X..X. 
+    0x70, 0x0D,         //   X..X  
+    0xD0, 0x0B,         //   .XX*  
+    0xD0, 0x07,         //   .XX.  
+    0xC0, 0x03,         //    XX   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 87
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x07, 0xD0,         // X.    .X
+    0x07, 0xD0,         // X.    .X
+    0x07, 0xD0,         // X.    .X
+    0x8A, 0xA2,         // ** ** **
+    0x8E, 0xA2,         // *X ** **
+    0x9D, 0x76,         // .X.**.X.
+    0x6D, 0x79,         // .X*..*X.
+    0x2D, 0x78,         // .X*  *X.
+    0x2C, 0x38,         //  X*  *X 
+    0x1C, 0x34,         //  X.  .X 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 88
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x0B, 0xE0,         // X*    *X
+    0x1D, 0x74,         // .X.  .X.
+    0x74, 0x1D,         //  .X..X. 
+    0xB0, 0x0A,         //   X***  
+    0xD0, 0x07,         //   .XX.  
+    0xD0, 0x07,         //   .XX.  
+    0xB0, 0x0E,         //   X**X  
+    0x34, 0x1D,         //  .X .X. 
+    0x1D, 0x74,         // .X.  .X.
+    0x0B, 0xE0,         // X*    *X
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 89
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x0E, 0x34,         // *X   .X 
+    0x1D, 0x1C,         // .X.  X. 
+    0x28, 0x0D,         //  ** .X  
+    0x74, 0x0A,         //  .X.**  
+    0xB0, 0x07,         //   X*X.  
+    0xD0, 0x02,         //   .X*   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 90
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xFC, 0x3F,         //  XXXXXX 
+    0x54, 0x3D,         //  ....XX 
+    0x00, 0x1D,         //     .X. 
+    0x00, 0x0B,         //     X*  
+    0x40, 0x07,         //    .X.  
+    0xD0, 0x01,         //   .X.   
+    0xE0, 0x00,         //   *X    
+    0x74, 0x00,         //  .X.    
+    0x7C, 0x15,         //  XX.... 
+    0xFC, 0x3F,         //  XXXXXX 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 91
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xC0, 0x0F,         //    XXX  
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x0F,         //    XXX  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 92
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x2C, 0x00,         //  X*     
+    0x74, 0x00,         //  .X.    
+    0xB0, 0x00,         //   X*    
+    0xD0, 0x00,         //   .X    
+    0xC0, 0x01,         //    X.   
+    0x40, 0x03,         //    .X   
+    0x00, 0x07,         //     X.  
+    0x00, 0x0E,         //     *X  
+    0x00, 0x1D,         //     .X. 
+    0x00, 0x38,         //      *X 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 93
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF0, 0x03,         //   XXX   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0xF0, 0x03,         //   XXX   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 94
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x80, 0x02,         //    **   
+    0xD0, 0x07,         //   .XX.  
+    0xA0, 0x0A,         //   ****  
+    0x70, 0x0D,         //   X..X  
+    0x34, 0x1C,         //  .X  X. 
+    0x1C, 0x34,         //  X.  .X 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 95
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xFF, 0xFF,         // XXXXXXXX
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 96
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF0, 0x01,         //   XX.   
+    0x80, 0x03,         //    *X   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 97
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF4, 0x1F,         //  .XXXX. 
+    0x64, 0x39,         //  .*..*X 
+    0x00, 0x34,         //      .X 
+    0xE4, 0x3F,         //  .*XXXX 
+    0x7C, 0x34,         //  XX. .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x2C, 0x3D,         //  X* .XX 
+    0xF4, 0x37,         //  .XXX.X 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 98
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0xEC, 0x1F,         //  X*XXX. 
+    0x7C, 0x2D,         //  XX..X* 
+    0x1C, 0x38,         //  X.  *X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x38,         //  X.  *X 
+    0x7C, 0x2D,         //  XX..X* 
+    0xDC, 0x1F,         //  X.XXX. 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 99
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xD0, 0x3F,         //   .XXXX 
+    0x74, 0x15,         //  .X.... 
+    0x2C, 0x00,         //  X*     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x2C, 0x00,         //  X*     
+    0x74, 0x15,         //  .X.... 
+    0xE0, 0x3F,         //   *XXXX 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 100
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x34,         //      .X 
+    0x00, 0x34,         //      .X 
+    0x00, 0x34,         //      .X 
+    0xF4, 0x3B,         //  .XXX*X 
+    0x78, 0x3D,         //  *X..XX 
+    0x2C, 0x34,         //  X*  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x2C, 0x34,         //  X*  .X 
+    0x78, 0x3D,         //  *X..XX 
+    0xF4, 0x37,         //  .XXX.X 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 101
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xE0, 0x1F,         //   *XXX. 
+    0x78, 0x2D,         //  *X..X* 
+    0x1C, 0x34,         //  X.  .X 
+    0xFC, 0x3F,         //  XXXXXX 
+    0x1C, 0x00,         //  X.     
+    0x2C, 0x00,         //  X*     
+    0x74, 0x14,         //  .X. .. 
+    0xE0, 0x1F,         //   *XXX. 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 102
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x40, 0x3F,         //    .XXX 
+    0xC0, 0x16,         //    X*.. 
+    0xC0, 0x01,         //    X.   
+    0xFC, 0x3F,         //  XXXXXX 
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 103
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF4, 0xFF,         //  .XXXXXX
+    0x2C, 0x38,         //  X*  *X 
+    0x1C, 0x34,         //  X.  .X 
+    0x2C, 0x38,         //  X*  *X 
+    0xF4, 0x1F,         //  .XXXX. 
+    0x1C, 0x00,         //  X.     
+    0xFC, 0x7F,         //  XXXXXX.
+    0x6C, 0xE4,         //  X*. .*X
+    0x1C, 0xD0,         //  X.   .X
+    0x6C, 0xF4,         //  X*. .XX
+    0xF4, 0x6F,         //  .XXXX*.
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 104
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0xEC, 0x1F,         //  X*XXX. 
+    0x7C, 0x3D,         //  XX..XX 
+    0x2C, 0x34,         //  X*  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 105
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x40, 0x07,         //    .X.  
+    0x40, 0x07,         //    .X.  
+    0x00, 0x00,         //         
+    0xF4, 0x03,         //  .XXX   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0xF8, 0x7F,         //  *XXXXX.
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 106
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x0D,         //     .X  
+    0x00, 0x0D,         //     .X  
+    0x00, 0x00,         //         
+    0xF4, 0x0F,         //  .XXXX  
+    0x00, 0x0D,         //     .X  
+    0x00, 0x0D,         //     .X  
+    0x00, 0x0D,         //     .X  
+    0x00, 0x0D,         //     .X  
+    0x00, 0x0D,         //     .X  
+    0x00, 0x0D,         //     .X  
+    0x00, 0x0D,         //     .X  
+    0x00, 0x0D,         //     .X  
+    0x54, 0x0F,         //  ...XX  
+    0xFC, 0x07,         //  XXXX.  
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 107
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0xB4,         //  X.  .X*
+    0x1C, 0x1D,         //  X. .X. 
+    0x5C, 0x07,         //  X..X.  
+    0xEC, 0x01,         //  X*X.   
+    0xBC, 0x07,         //  XX*X.  
+    0x1C, 0x0F,         //  X. XX  
+    0x1C, 0x2D,         //  X. .X* 
+    0x1C, 0xB4,         //  X.  .X*
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 108
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF4, 0x03,         //  .XXX   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0x40, 0x03,         //    .X   
+    0xF8, 0x7F,         //  *XXXXX.
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 109
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xB7, 0x2E,         // X.X**X* 
+    0xDB, 0x39,         // X*.X.*X 
+    0xC7, 0x35,         // X. X..X 
+    0xC7, 0x34,         // X. X .X 
+    0xC7, 0x34,         // X. X .X 
+    0xC7, 0x34,         // X. X .X 
+    0xC7, 0x34,         // X. X .X 
+    0xC7, 0x34,         // X. X .X 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 110
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xDC, 0x1F,         //  X.XXX. 
+    0x7C, 0x3D,         //  XX..XX 
+    0x2C, 0x34,         //  X*  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 111
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xE0, 0x0B,         //   *XX*  
+    0x78, 0x2D,         //  *X..X* 
+    0x2C, 0x38,         //  X*  *X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x2C, 0x38,         //  X*  *X 
+    0x78, 0x2D,         //  *X..X* 
+    0xE0, 0x0B,         //   *XX*  
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 112
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xDC, 0x1F,         //  X.XXX. 
+    0x7C, 0x2D,         //  XX..X* 
+    0x1C, 0x38,         //  X.  *X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x38,         //  X.  *X 
+    0x7C, 0x2D,         //  XX..X* 
+    0xEC, 0x1F,         //  X*XXX. 
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x1C, 0x00,         //  X.     
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 113
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF4, 0x37,         //  .XXX.X 
+    0x78, 0x3D,         //  *X..XX 
+    0x2C, 0x34,         //  X*  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x2C, 0x34,         //  X*  .X 
+    0x78, 0x3D,         //  *X..XX 
+    0xF4, 0x3B,         //  .XXX*X 
+    0x00, 0x34,         //      .X 
+    0x00, 0x34,         //      .X 
+    0x00, 0x34,         //      .X 
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 114
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x70, 0x3F,         //   X.XXX 
+    0xF0, 0x15,         //   XX... 
+    0xB0, 0x00,         //   X*    
+    0x70, 0x00,         //   X.    
+    0x70, 0x00,         //   X.    
+    0x70, 0x00,         //   X.    
+    0x70, 0x00,         //   X.    
+    0x70, 0x00,         //   X.    
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 115
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF4, 0x2F,         //  .XXXX* 
+    0x6C, 0x15,         //  X*.... 
+    0x2C, 0x00,         //  X*     
+    0xF4, 0x06,         //  .XX*.  
+    0x40, 0x2F,         //    .XX* 
+    0x00, 0x34,         //      .X 
+    0x58, 0x39,         //  *...*X 
+    0xFC, 0x1F,         //  XXXXX. 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 116
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x80, 0x01,         //    *.   
+    0xC0, 0x01,         //    X.   
+    0xFC, 0x3F,         //  XXXXXX 
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x01,         //    X.   
+    0xC0, 0x16,         //    X*.. 
+    0x40, 0x3F,         //    .XXX 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 117
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x34,         //  X.  .X 
+    0x1C, 0x38,         //  X.  *X 
+    0x7C, 0x3D,         //  XX..XX 
+    0xF4, 0x37,         //  .XXX.X 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 118
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x2C, 0x38,         //  X*  *X 
+    0x38, 0x2C,         //  *X  X* 
+    0x34, 0x1C,         //  .X  X. 
+    0x74, 0x1D,         //  .X..X. 
+    0x70, 0x0D,         //   X..X  
+    0xE0, 0x0A,         //   *X**  
+    0xD0, 0x07,         //   .XX.  
+    0xC0, 0x03,         //    XX   
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 119
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x87, 0xD2,         // X. ** .X
+    0x87, 0xD3,         // X. *X .X
+    0x97, 0xD6,         // X..**..X
+    0x66, 0x99,         // *.*..*.*
+    0x76, 0x5D,         // *.X..X..
+    0x39, 0x6C,         // .*X  X*.
+    0x1D, 0x74,         // .X.  .X.
+    0x1D, 0x34,         // .X.  .X 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 120
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x28, 0x28,         //  **  ** 
+    0x74, 0x1D,         //  .X..X. 
+    0xE0, 0x0B,         //   *XX*  
+    0xC0, 0x03,         //    XX   
+    0xD0, 0x07,         //   .XX.  
+    0xA0, 0x0A,         //   ****  
+    0x74, 0x1D,         //  .X..X. 
+    0x2C, 0x38,         //  X*  *X 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 121
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x2C, 0x38,         //  X*  *X 
+    0x38, 0x2C,         //  *X  X* 
+    0x34, 0x1C,         //  .X  X. 
+    0x70, 0x0D,         //   X..X  
+    0xA0, 0x0A,         //   ****  
+    0xD0, 0x07,         //   .XX.  
+    0xD0, 0x03,         //   .XX   
+    0xC0, 0x02,         //    X*   
+    0xC0, 0x01,         //    X.   
+    0xD4, 0x00,         //  ..X    
+    0x7C, 0x00,         //  XX.    
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 122
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xFC, 0x3F,         //  XXXXXX 
+    0x00, 0x2C,         //      X* 
+    0x00, 0x1E,         //     *X. 
+    0x40, 0x07,         //    .X.  
+    0xD0, 0x01,         //   .X.   
+    0xB0, 0x00,         //   X*    
+    0x38, 0x00,         //  *X     
+    0xFC, 0x3F,         //  XXXXXX 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 123
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x3D,         //     .XX 
+    0x00, 0x1B,         //     X*. 
+    0x00, 0x07,         //     X.  
+    0x00, 0x07,         //     X.  
+    0x50, 0x07,         //   ..X.  
+    0xF0, 0x01,         //   XX.   
+    0x90, 0x07,         //   .*X.  
+    0x00, 0x07,         //     X.  
+    0x00, 0x07,         //     X.  
+    0x00, 0x07,         //     X.  
+    0x00, 0x1B,         //     X*. 
+    0x00, 0x3D,         //     .XX 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 124
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x03,         //     X   
+    0x00, 0x03,         //     X   
+    0x00, 0x03,         //     X   
+    0x00, 0x03,         //     X   
+    0x00, 0x03,         //     X   
+    0x00, 0x03,         //     X   
+    0x00, 0x03,         //     X   
+    0x00, 0x03,         //     X   
+    0x00, 0x03,         //     X   
+    0x00, 0x03,         //     X   
+    0x00, 0x03,         //     X   
+    0x00, 0x03,         //     X   
+    0x00, 0x03,         //     X   
+    0x00, 0x03,         //     X   
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 125
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x7C, 0x00,         //  XX.    
+    0xE4, 0x00,         //  .*X    
+    0xD0, 0x00,         //   .X    
+    0xD0, 0x00,         //   .X    
+    0xD0, 0x05,         //   .X..  
+    0x40, 0x0F,         //    .XX  
+    0xD0, 0x06,         //   .X*.  
+    0xD0, 0x00,         //   .X    
+    0xD0, 0x00,         //   .X    
+    0xD0, 0x00,         //   .X    
+    0xE4, 0x00,         //  .*X    
+    0x7C, 0x00,         //  XX.    
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+/***********************************
+ * Character - 126
+ ***********************************/
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0xF8, 0x25,         //  *XX..* 
+    0x58, 0x2F,         //  *..XX* 
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+    0x00, 0x00,         //         
+
+};
+
+/*********************************
+ * TTF Font File Structure
+ * Label: DroidSansMono_16
+ * Description:  Height: 22 pixels, 2 bits per pixel, Range: ' ' to '~'
+ ***********************************/
+
+extern const char __DroidSansMono_16[] __attribute__((aligned(2)));
+
+const FONT_FLASH DroidSansMono_16 =
+{
+    (XFLASH | COMP_NONE),
+    (GFX_FONT_SPACE char *)__DroidSansMono_16
+};
+
+const char __DroidSansMono_16[] __attribute__((aligned(2))) =
+{
+/****************************************
+ * Font header
+ ****************************************/
+    0x00,           // Font ID
+    0x04,           // Font information:  2 bits per pixel, Characters zero degress rotation
+    0x20, 0x00,     // First Character
+    0x7E, 0x00,     // Last Character
+    0x16, 0x00,     // Height
+/****************************************
+ * Font Glyph Table
+ ****************************************/
+    0x0A,              // width of the glyph
+    0x84, 0x01, 0x00,       // Character - 32, offset (0x00000184)
+    0x0A,              // width of the glyph
+    0xC6, 0x01, 0x00,       // Character - 33, offset (0x000001C6)
+    0x0A,              // width of the glyph
+    0x08, 0x02, 0x00,       // Character - 34, offset (0x00000208)
+    0x0A,              // width of the glyph
+    0x4A, 0x02, 0x00,       // Character - 35, offset (0x0000024A)
+    0x0A,              // width of the glyph
+    0x8C, 0x02, 0x00,       // Character - 36, offset (0x0000028C)
+    0x0A,              // width of the glyph
+    0xCE, 0x02, 0x00,       // Character - 37, offset (0x000002CE)
+    0x0A,              // width of the glyph
+    0x10, 0x03, 0x00,       // Character - 38, offset (0x00000310)
+    0x0A,              // width of the glyph
+    0x52, 0x03, 0x00,       // Character - 39, offset (0x00000352)
+    0x0A,              // width of the glyph
+    0x94, 0x03, 0x00,       // Character - 40, offset (0x00000394)
+    0x0A,              // width of the glyph
+    0xD6, 0x03, 0x00,       // Character - 41, offset (0x000003D6)
+    0x0A,              // width of the glyph
+    0x18, 0x04, 0x00,       // Character - 42, offset (0x00000418)
+    0x0A,              // width of the glyph
+    0x5A, 0x04, 0x00,       // Character - 43, offset (0x0000045A)
+    0x0A,              // width of the glyph
+    0x9C, 0x04, 0x00,       // Character - 44, offset (0x0000049C)
+    0x0A,              // width of the glyph
+    0xDE, 0x04, 0x00,       // Character - 45, offset (0x000004DE)
+    0x0A,              // width of the glyph
+    0x20, 0x05, 0x00,       // Character - 46, offset (0x00000520)
+    0x0A,              // width of the glyph
+    0x62, 0x05, 0x00,       // Character - 47, offset (0x00000562)
+    0x0A,              // width of the glyph
+    0xA4, 0x05, 0x00,       // Character - 48, offset (0x000005A4)
+    0x0A,              // width of the glyph
+    0xE6, 0x05, 0x00,       // Character - 49, offset (0x000005E6)
+    0x0A,              // width of the glyph
+    0x28, 0x06, 0x00,       // Character - 50, offset (0x00000628)
+    0x0A,              // width of the glyph
+    0x6A, 0x06, 0x00,       // Character - 51, offset (0x0000066A)
+    0x0A,              // width of the glyph
+    0xAC, 0x06, 0x00,       // Character - 52, offset (0x000006AC)
+    0x0A,              // width of the glyph
+    0xEE, 0x06, 0x00,       // Character - 53, offset (0x000006EE)
+    0x0A,              // width of the glyph
+    0x30, 0x07, 0x00,       // Character - 54, offset (0x00000730)
+    0x0A,              // width of the glyph
+    0x72, 0x07, 0x00,       // Character - 55, offset (0x00000772)
+    0x0A,              // width of the glyph
+    0xB4, 0x07, 0x00,       // Character - 56, offset (0x000007B4)
+    0x0A,              // width of the glyph
+    0xF6, 0x07, 0x00,       // Character - 57, offset (0x000007F6)
+    0x0A,              // width of the glyph
+    0x38, 0x08, 0x00,       // Character - 58, offset (0x00000838)
+    0x0A,              // width of the glyph
+    0x7A, 0x08, 0x00,       // Character - 59, offset (0x0000087A)
+    0x0A,              // width of the glyph
+    0xBC, 0x08, 0x00,       // Character - 60, offset (0x000008BC)
+    0x0A,              // width of the glyph
+    0xFE, 0x08, 0x00,       // Character - 61, offset (0x000008FE)
+    0x0A,              // width of the glyph
+    0x40, 0x09, 0x00,       // Character - 62, offset (0x00000940)
+    0x0A,              // width of the glyph
+    0x82, 0x09, 0x00,       // Character - 63, offset (0x00000982)
+    0x0A,              // width of the glyph
+    0xC4, 0x09, 0x00,       // Character - 64, offset (0x000009C4)
+    0x0A,              // width of the glyph
+    0x06, 0x0A, 0x00,       // Character - 65, offset (0x00000A06)
+    0x0A,              // width of the glyph
+    0x48, 0x0A, 0x00,       // Character - 66, offset (0x00000A48)
+    0x0A,              // width of the glyph
+    0x8A, 0x0A, 0x00,       // Character - 67, offset (0x00000A8A)
+    0x0A,              // width of the glyph
+    0xCC, 0x0A, 0x00,       // Character - 68, offset (0x00000ACC)
+    0x0A,              // width of the glyph
+    0x0E, 0x0B, 0x00,       // Character - 69, offset (0x00000B0E)
+    0x0A,              // width of the glyph
+    0x50, 0x0B, 0x00,       // Character - 70, offset (0x00000B50)
+    0x0A,              // width of the glyph
+    0x92, 0x0B, 0x00,       // Character - 71, offset (0x00000B92)
+    0x0A,              // width of the glyph
+    0xD4, 0x0B, 0x00,       // Character - 72, offset (0x00000BD4)
+    0x0A,              // width of the glyph
+    0x16, 0x0C, 0x00,       // Character - 73, offset (0x00000C16)
+    0x0A,              // width of the glyph
+    0x58, 0x0C, 0x00,       // Character - 74, offset (0x00000C58)
+    0x0A,              // width of the glyph
+    0x9A, 0x0C, 0x00,       // Character - 75, offset (0x00000C9A)
+    0x0A,              // width of the glyph
+    0xDC, 0x0C, 0x00,       // Character - 76, offset (0x00000CDC)
+    0x0A,              // width of the glyph
+    0x1E, 0x0D, 0x00,       // Character - 77, offset (0x00000D1E)
+    0x0A,              // width of the glyph
+    0x60, 0x0D, 0x00,       // Character - 78, offset (0x00000D60)
+    0x0A,              // width of the glyph
+    0xA2, 0x0D, 0x00,       // Character - 79, offset (0x00000DA2)
+    0x0A,              // width of the glyph
+    0xE4, 0x0D, 0x00,       // Character - 80, offset (0x00000DE4)
+    0x0A,              // width of the glyph
+    0x26, 0x0E, 0x00,       // Character - 81, offset (0x00000E26)
+    0x0A,              // width of the glyph
+    0x68, 0x0E, 0x00,       // Character - 82, offset (0x00000E68)
+    0x0A,              // width of the glyph
+    0xAA, 0x0E, 0x00,       // Character - 83, offset (0x00000EAA)
+    0x0A,              // width of the glyph
+    0xEC, 0x0E, 0x00,       // Character - 84, offset (0x00000EEC)
+    0x0A,              // width of the glyph
+    0x2E, 0x0F, 0x00,       // Character - 85, offset (0x00000F2E)
+    0x0A,              // width of the glyph
+    0x70, 0x0F, 0x00,       // Character - 86, offset (0x00000F70)
+    0x0A,              // width of the glyph
+    0xB2, 0x0F, 0x00,       // Character - 87, offset (0x00000FB2)
+    0x0A,              // width of the glyph
+    0xF4, 0x0F, 0x00,       // Character - 88, offset (0x00000FF4)
+    0x0A,              // width of the glyph
+    0x36, 0x10, 0x00,       // Character - 89, offset (0x00001036)
+    0x0A,              // width of the glyph
+    0x78, 0x10, 0x00,       // Character - 90, offset (0x00001078)
+    0x0A,              // width of the glyph
+    0xBA, 0x10, 0x00,       // Character - 91, offset (0x000010BA)
+    0x0A,              // width of the glyph
+    0xFC, 0x10, 0x00,       // Character - 92, offset (0x000010FC)
+    0x0A,              // width of the glyph
+    0x3E, 0x11, 0x00,       // Character - 93, offset (0x0000113E)
+    0x0A,              // width of the glyph
+    0x80, 0x11, 0x00,       // Character - 94, offset (0x00001180)
+    0x0A,              // width of the glyph
+    0xC2, 0x11, 0x00,       // Character - 95, offset (0x000011C2)
+    0x0A,              // width of the glyph
+    0x04, 0x12, 0x00,       // Character - 96, offset (0x00001204)
+    0x0A,              // width of the glyph
+    0x46, 0x12, 0x00,       // Character - 97, offset (0x00001246)
+    0x0A,              // width of the glyph
+    0x88, 0x12, 0x00,       // Character - 98, offset (0x00001288)
+    0x0A,              // width of the glyph
+    0xCA, 0x12, 0x00,       // Character - 99, offset (0x000012CA)
+    0x0A,              // width of the glyph
+    0x0C, 0x13, 0x00,       // Character - 100, offset (0x0000130C)
+    0x0A,              // width of the glyph
+    0x4E, 0x13, 0x00,       // Character - 101, offset (0x0000134E)
+    0x0A,              // width of the glyph
+    0x90, 0x13, 0x00,       // Character - 102, offset (0x00001390)
+    0x0A,              // width of the glyph
+    0xD2, 0x13, 0x00,       // Character - 103, offset (0x000013D2)
+    0x0A,              // width of the glyph
+    0x14, 0x14, 0x00,       // Character - 104, offset (0x00001414)
+    0x0A,              // width of the glyph
+    0x56, 0x14, 0x00,       // Character - 105, offset (0x00001456)
+    0x0A,              // width of the glyph
+    0x98, 0x14, 0x00,       // Character - 106, offset (0x00001498)
+    0x0A,              // width of the glyph
+    0xDA, 0x14, 0x00,       // Character - 107, offset (0x000014DA)
+    0x0A,              // width of the glyph
+    0x1C, 0x15, 0x00,       // Character - 108, offset (0x0000151C)
+    0x0A,              // width of the glyph
+    0x5E, 0x15, 0x00,       // Character - 109, offset (0x0000155E)
+    0x0A,              // width of the glyph
+    0xA0, 0x15, 0x00,       // Character - 110, offset (0x000015A0)
+    0x0A,              // width of the glyph
+    0xE2, 0x15, 0x00,       // Character - 111, offset (0x000015E2)
+    0x0A,              // width of the glyph
+    0x24, 0x16, 0x00,       // Character - 112, offset (0x00001624)
+    0x0A,              // width of the glyph
+    0x66, 0x16, 0x00,       // Character - 113, offset (0x00001666)
+    0x0A,              // width of the glyph
+    0xA8, 0x16, 0x00,       // Character - 114, offset (0x000016A8)
+    0x0A,              // width of the glyph
+    0xEA, 0x16, 0x00,       // Character - 115, offset (0x000016EA)
+    0x0A,              // width of the glyph
+    0x2C, 0x17, 0x00,       // Character - 116, offset (0x0000172C)
+    0x0A,              // width of the glyph
+    0x6E, 0x17, 0x00,       // Character - 117, offset (0x0000176E)
+    0x0A,              // width of the glyph
+    0xB0, 0x17, 0x00,       // Character - 118, offset (0x000017B0)
+    0x0A,              // width of the glyph
+    0xF2, 0x17, 0x00,       // Character - 119, offset (0x000017F2)
+    0x0A,              // width of the glyph
+    0x34, 0x18, 0x00,       // Character - 120, offset (0x00001834)
+    0x0A,              // width of the glyph
+    0x76, 0x18, 0x00,       // Character - 121, offset (0x00001876)
+    0x0A,              // width of the glyph
+    0xB8, 0x18, 0x00,       // Character - 122, offset (0x000018B8)
+    0x0A,              // width of the glyph
+    0xFA, 0x18, 0x00,       // Character - 123, offset (0x000018FA)
+    0x0A,              // width of the glyph
+    0x3C, 0x19, 0x00,       // Character - 124, offset (0x0000193C)
+    0x0A,              // width of the glyph
+    0x7E, 0x19, 0x00,       // Character - 125, offset (0x0000197E)
+    0x0A,              // width of the glyph
+    0xC0, 0x19, 0x00,       // Character - 126, offset (0x000019C0)
+/***********************************
+ * Font Characters
+ ***********************************/
+/***********************************
+ * Character - 32
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 33
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x0A, 0x00,         //     **      
+    0x00, 0x0A, 0x00,         //     **      
+    0x00, 0x0A, 0x00,         //     **      
+    0x00, 0x0A, 0x00,         //     **      
+    0x00, 0x0A, 0x00,         //     **      
+    0x00, 0x0A, 0x00,         //     **      
+    0x00, 0x0A, 0x00,         //     **      
+    0x00, 0x09, 0x00,         //     .*      
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x05, 0x00,         //     ..      
+    0x00, 0x0A, 0x00,         //     **      
+    0x00, 0x0A, 0x00,         //     **      
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 34
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0xB0, 0xB0, 0x00,         //   X*  X*    
+    0xA0, 0xA0, 0x00,         //   **  **    
+    0xA0, 0xA0, 0x00,         //   **  **    
+    0xA0, 0xA0, 0x00,         //   **  **    
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 35
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x40, 0x42, 0x02,         //    .*  .*   
+    0x80, 0x82, 0x02,         //    **  **   
+    0x80, 0x81, 0x01,         //    *.  *.   
+    0xFC, 0xFF, 0x0F,         //  XXXXXXXXX  
+    0xA4, 0xA5, 0x05,         //  .**..**..  
+    0xA0, 0xA0, 0x00,         //   **  **    
+    0x60, 0x60, 0x00,         //   *.  *.    
+    0xFF, 0xFF, 0x03,         // XXXXXXXXX   
+    0x75, 0x65, 0x01,         // ..X...*..   
+    0x24, 0x24, 0x00,         //  .*  .*     
+    0x18, 0x18, 0x00,         //  *.  *.     
+    0x18, 0x18, 0x00,         //  *.  *.     
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 36
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x1C, 0x00,         //      X.     
+    0x00, 0x1C, 0x00,         //      X.     
+    0x90, 0xBE, 0x01,         //   .**XX*.   
+    0xA0, 0x5D, 0x01,         //   **.X...   
+    0x70, 0x1C, 0x00,         //   X. X.     
+    0xA0, 0x1D, 0x00,         //   **.X.     
+    0x90, 0x5F, 0x00,         //   .*XX..    
+    0x00, 0xAD, 0x01,         //     .X**.   
+    0x00, 0x9C, 0x02,         //      X.**   
+    0x00, 0x5C, 0x03,         //      X..X   
+    0x60, 0x9D, 0x02,         //   *..X.**   
+    0xA0, 0xAF, 0x01,         //   **XX**.   
+    0x00, 0x1C, 0x00,         //      X.     
+    0x00, 0x1C, 0x00,         //      X.     
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 37
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0xB9, 0x81, 0x02,         // .*X*.  **   
+    0x46, 0xD2, 0x01,         // *. .* .X.   
+    0x47, 0xA3, 0x00,         // X. .X **    
+    0x46, 0x76, 0x00,         // *. .*.X.    
+    0xB9, 0x19, 0x00,         // .*X*.*.     
+    0x00, 0x19, 0x00,         //     .*.     
+    0x40, 0x06, 0x00,         //    .*.      
+    0x40, 0xE6, 0x06,         //    .*.*X*.  
+    0x90, 0x19, 0x09,         //   .*.*. .*  
+    0xA0, 0x1C, 0x0D,         //   ** X. .X  
+    0x74, 0x18, 0x09,         //  .X. *. .*  
+    0x18, 0xE4, 0x06,         //  *.  .*X*.  
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 38
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x90, 0x1B, 0x00,         //   .*X*.     
+    0xA0, 0x29, 0x00,         //   **.**     
+    0x70, 0x34, 0x00,         //   X. .X     
+    0x60, 0x24, 0x00,         //   *. .*     
+    0x90, 0x1D, 0x00,         //   .*.X.     
+    0x90, 0x47, 0x03,         //   .*X. .X   
+    0xA4, 0x4A, 0x02,         //  .**** .*   
+    0x68, 0x9D, 0x02,         //  **..X.**   
+    0x1C, 0xB4, 0x01,         //  X.  .X*.   
+    0x2C, 0xE0, 0x01,         //  X*   *X.   
+    0x78, 0xB9, 0x06,         //  *X..*X**.  
+    0xE4, 0x5B, 0x0A,         //  .*XX*..**  
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 39
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x0B, 0x00,         //     X*      
+    0x00, 0x0A, 0x00,         //     **      
+    0x00, 0x0A, 0x00,         //     **      
+    0x00, 0x0A, 0x00,         //     **      
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 40
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x64, 0x00,         //      .*.    
+    0x00, 0x29, 0x00,         //     .**     
+    0x00, 0x1A, 0x00,         //     **.     
+    0x40, 0x07, 0x00,         //    .X.      
+    0x80, 0x02, 0x00,         //    **       
+    0x80, 0x02, 0x00,         //    **       
+    0xC0, 0x02, 0x00,         //    X*       
+    0xC0, 0x01, 0x00,         //    X.       
+    0xC0, 0x02, 0x00,         //    X*       
+    0x80, 0x02, 0x00,         //    **       
+    0x80, 0x02, 0x00,         //    **       
+    0x40, 0x07, 0x00,         //    .X.      
+    0x00, 0x1A, 0x00,         //     **.     
+    0x00, 0x29, 0x00,         //     .**     
+    0x00, 0x64, 0x00,         //      .*.    
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 41
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x90, 0x01, 0x00,         //   .*.       
+    0x80, 0x06, 0x00,         //    **.      
+    0x40, 0x0A, 0x00,         //    .**      
+    0x00, 0x1D, 0x00,         //     .X.     
+    0x00, 0x29, 0x00,         //     .**     
+    0x00, 0x28, 0x00,         //      **     
+    0x00, 0x38, 0x00,         //      *X     
+    0x00, 0x34, 0x00,         //      .X     
+    0x00, 0x38, 0x00,         //      *X     
+    0x00, 0x28, 0x00,         //      **     
+    0x00, 0x28, 0x00,         //      **     
+    0x00, 0x1D, 0x00,         //     .X.     
+    0x40, 0x0A, 0x00,         //    .**      
+    0x80, 0x06, 0x00,         //    **.      
+    0x90, 0x01, 0x00,         //   .*.       
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 42
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x40, 0x07, 0x00,         //    .X.      
+    0x40, 0x07, 0x00,         //    .X.      
+    0x59, 0x97, 0x01,         // .*..X..*.   
+    0xA9, 0xAB, 0x01,         // .***X***.   
+    0x90, 0x1A, 0x00,         //   .***.     
+    0xA0, 0x29, 0x00,         //   **.**     
+    0x64, 0x64, 0x00,         //  .*. .*.    
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 43
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0xFC, 0xFF, 0x01,         //  XXXXXXX.   
+    0x54, 0x57, 0x01,         //  ...X....   
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x05, 0x00,         //     ..      
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 44
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x40, 0x0B, 0x00,         //    .X*      
+    0x40, 0x0B, 0x00,         //    .X*      
+    0x80, 0x07, 0x00,         //    *X.      
+    0x80, 0x02, 0x00,         //    **       
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 45
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0xF0, 0xFF, 0x00,         //   XXXXXX    
+    0x50, 0x55, 0x00,         //   ......    
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 46
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x0A, 0x00,         //     **      
+    0x00, 0x0A, 0x00,         //     **      
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 47
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0xA0, 0x00,         //       **    
+    0x00, 0x64, 0x00,         //      .*.    
+    0x00, 0x74, 0x00,         //      .X.    
+    0x00, 0x28, 0x00,         //      **     
+    0x00, 0x1D, 0x00,         //     .X.     
+    0x00, 0x09, 0x00,         //     .*      
+    0x00, 0x06, 0x00,         //     *.      
+    0x40, 0x07, 0x00,         //    .X.      
+    0x80, 0x02, 0x00,         //    **       
+    0xD0, 0x01, 0x00,         //   .X.       
+    0x90, 0x01, 0x00,         //   .*.       
+    0xA0, 0x00, 0x00,         //   **        
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 48
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x90, 0x6F, 0x00,         //   .*XX*.    
+    0xA4, 0xA5, 0x01,         //  .**..**.   
+    0x64, 0xD0, 0x01,         //  .*.  .X.   
+    0x28, 0x80, 0x02,         //  **    **   
+    0x2C, 0x80, 0x03,         //  X*    *X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x2C, 0x80, 0x03,         //  X*    *X   
+    0x28, 0x80, 0x02,         //  **    **   
+    0x64, 0xD0, 0x01,         //  .*.  .X.   
+    0xA4, 0xA5, 0x01,         //  .**..**.   
+    0x90, 0x6F, 0x00,         //   .*XX*.    
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 49
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x40, 0x1E, 0x00,         //    .*X.     
+    0x90, 0x1E, 0x00,         //   .**X.     
+    0xA0, 0x1D, 0x00,         //   **.X.     
+    0x00, 0x1C, 0x00,         //      X.     
+    0x00, 0x1C, 0x00,         //      X.     
+    0x00, 0x1C, 0x00,         //      X.     
+    0x00, 0x1C, 0x00,         //      X.     
+    0x00, 0x1C, 0x00,         //      X.     
+    0x00, 0x1C, 0x00,         //      X.     
+    0x00, 0x1C, 0x00,         //      X.     
+    0x00, 0x1C, 0x00,         //      X.     
+    0x00, 0x1C, 0x00,         //      X.     
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 50
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x94, 0x6F, 0x00,         //  ..*XX*.    
+    0xA8, 0xD5, 0x01,         //  ***...X.   
+    0x30, 0x80, 0x02,         //   X    **   
+    0x00, 0x40, 0x03,         //        .X   
+    0x00, 0x80, 0x02,         //        **   
+    0x00, 0xD0, 0x01,         //       .X.   
+    0x00, 0x74, 0x00,         //      .X.    
+    0x00, 0x1D, 0x00,         //     .X.     
+    0x40, 0x07, 0x00,         //    .X.      
+    0x90, 0x01, 0x00,         //   .*.       
+    0x78, 0x55, 0x01,         //  *X......   
+    0xFC, 0xFF, 0x03,         //  XXXXXXXX   
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 51
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0xA4, 0x6F, 0x01,         //  .**XX*..   
+    0x68, 0xD5, 0x02,         //  **....X*   
+    0x0C, 0x80, 0x03,         //  X     *X   
+    0x00, 0x80, 0x02,         //        **   
+    0x00, 0xD4, 0x01,         //      ..X.   
+    0xC0, 0x6F, 0x00,         //    XXX*.    
+    0x40, 0xE5, 0x01,         //    ...*X.   
+    0x00, 0x80, 0x02,         //        **   
+    0x00, 0x40, 0x03,         //        .X   
+    0x00, 0x80, 0x02,         //        **   
+    0x58, 0xE5, 0x01,         //  *....*X.   
+    0xE8, 0x6F, 0x00,         //  **XXX*.    
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 52
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0xE4, 0x00,         //      .*X    
+    0x00, 0xE8, 0x00,         //      **X    
+    0x00, 0xED, 0x00,         //     .X*X    
+    0x40, 0xDA, 0x00,         //    .**.X    
+    0x80, 0xD2, 0x00,         //    ** .X    
+    0xD0, 0xD1, 0x00,         //   .X. .X    
+    0x64, 0xD0, 0x00,         //  .*.  .X    
+    0x28, 0xD0, 0x00,         //  **   .X    
+    0xFC, 0xFF, 0x0B,         //  XXXXXXXX*  
+    0x54, 0xE5, 0x05,         //  .....*X..  
+    0x00, 0xD0, 0x00,         //       .X    
+    0x00, 0xD0, 0x00,         //       .X    
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 53
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0xF8, 0xFF, 0x00,         //  *XXXXXX    
+    0x68, 0x55, 0x00,         //  **.....    
+    0x28, 0x00, 0x00,         //  **         
+    0x18, 0x00, 0x00,         //  *.         
+    0x1C, 0x00, 0x00,         //  X.         
+    0xFC, 0x6F, 0x00,         //  XXXXX*.    
+    0x54, 0xE5, 0x01,         //  .....*X.   
+    0x00, 0x80, 0x02,         //        **   
+    0x00, 0x40, 0x03,         //        .X   
+    0x00, 0x80, 0x02,         //        **   
+    0x58, 0xE5, 0x01,         //  *....*X.   
+    0xE8, 0x6B, 0x00,         //  **XX**.    
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 54
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x40, 0xFE, 0x00,         //    .*XXX    
+    0xD0, 0x56, 0x00,         //   .X*...    
+    0x74, 0x00, 0x00,         //  .X.        
+    0x28, 0x00, 0x00,         //  **         
+    0xA8, 0x6E, 0x00,         //  ****X*.    
+    0xBC, 0xD5, 0x01,         //  XX*...X.   
+    0x2C, 0x80, 0x02,         //  X*    **   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x28, 0x40, 0x03,         //  **    .X   
+    0x68, 0x80, 0x02,         //  **.   **   
+    0xA4, 0xE5, 0x01,         //  .**..*X.   
+    0x90, 0x6F, 0x00,         //   .*XX*.    
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 55
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0xFC, 0xFF, 0x03,         //  XXXXXXXX   
+    0x54, 0x95, 0x02,         //  ......**   
+    0x00, 0xD0, 0x01,         //       .X.   
+    0x00, 0xD0, 0x01,         //       .X.   
+    0x00, 0xA0, 0x00,         //       **    
+    0x00, 0x74, 0x00,         //      .X.    
+    0x00, 0x28, 0x00,         //      **     
+    0x00, 0x1D, 0x00,         //     .X.     
+    0x00, 0x1E, 0x00,         //     *X.     
+    0x40, 0x0A, 0x00,         //    .**      
+    0x40, 0x07, 0x00,         //    .X.      
+    0x80, 0x06, 0x00,         //    **.      
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 56
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x90, 0x6F, 0x00,         //   .*XX*.    
+    0x68, 0x95, 0x02,         //  **....**   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x28, 0x80, 0x02,         //  **    **   
+    0x74, 0xA5, 0x01,         //  .X...**.   
+    0xD0, 0x6F, 0x00,         //   .XXX*.    
+    0xA4, 0xA5, 0x00,         //  .**..**    
+    0x28, 0x90, 0x02,         //  **   .**   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x2C, 0x80, 0x02,         //  X*    **   
+    0x78, 0xE5, 0x01,         //  *X...*X.   
+    0x90, 0x6F, 0x00,         //   .*XX*.    
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 57
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x90, 0x6F, 0x00,         //   .*XX*.    
+    0xB4, 0xA5, 0x01,         //  .X*..**.   
+    0x28, 0x90, 0x02,         //  **   .**   
+    0x1C, 0x80, 0x02,         //  X.    **   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x28, 0x80, 0x03,         //  **    *X   
+    0x74, 0xA5, 0x03,         //  .X...**X   
+    0x90, 0xAB, 0x02,         //   .*X****   
+    0x00, 0x80, 0x02,         //        **   
+    0x00, 0xD0, 0x01,         //       .X.   
+    0x50, 0x79, 0x00,         //   ...*X.    
+    0xF0, 0x1B, 0x00,         //   XXX*.     
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 58
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x0A, 0x00,         //     **      
+    0x00, 0x0A, 0x00,         //     **      
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x0A, 0x00,         //     **      
+    0x00, 0x0A, 0x00,         //     **      
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 59
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x0A, 0x00,         //     **      
+    0x00, 0x0A, 0x00,         //     **      
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x40, 0x0B, 0x00,         //    .X*      
+    0x40, 0x0B, 0x00,         //    .X*      
+    0x80, 0x07, 0x00,         //    *X.      
+    0x80, 0x02, 0x00,         //    **       
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 60
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x40, 0x02,         //        .*   
+    0x00, 0xA5, 0x01,         //     ..**.   
+    0x90, 0x1A, 0x00,         //   .***.     
+    0xB8, 0x01, 0x00,         //  *X*.       
+    0xB8, 0x01, 0x00,         //  *X*.       
+    0x90, 0x1A, 0x00,         //   .***.     
+    0x00, 0xA5, 0x01,         //     ..**.   
+    0x00, 0x40, 0x02,         //        .*   
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 61
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0xFC, 0xFF, 0x03,         //  XXXXXXXX   
+    0x54, 0x55, 0x01,         //  ........   
+    0x00, 0x00, 0x00,         //             
+    0x54, 0x55, 0x01,         //  ........   
+    0xFC, 0xFF, 0x03,         //  XXXXXXXX   
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 62
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x18, 0x00, 0x00,         //  *.         
+    0xA4, 0x05, 0x00,         //  .**..      
+    0x40, 0x6A, 0x00,         //    .***.    
+    0x00, 0xE4, 0x02,         //      .*X*   
+    0x00, 0xE4, 0x02,         //      .*X*   
+    0x40, 0x6A, 0x00,         //    .***.    
+    0xA4, 0x05, 0x00,         //  .**..      
+    0x18, 0x00, 0x00,         //  *.         
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 63
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0xE4, 0x6F, 0x00,         //  .*XXX*.    
+    0x68, 0xD5, 0x01,         //  **....X.   
+    0x00, 0x80, 0x03,         //        *X   
+    0x00, 0x40, 0x03,         //        .X   
+    0x00, 0x90, 0x02,         //       .**   
+    0x00, 0xA4, 0x01,         //      .**.   
+    0x00, 0x1A, 0x00,         //     **.     
+    0x40, 0x06, 0x00,         //    .*.      
+    0x80, 0x02, 0x00,         //    **       
+    0x40, 0x01, 0x00,         //    ..       
+    0x80, 0x02, 0x00,         //    **       
+    0x80, 0x02, 0x00,         //    **       
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 64
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x90, 0x6F, 0x00,         //   .*XX*.    
+    0x64, 0x95, 0x02,         //  .*....**   
+    0x19, 0x40, 0x06,         // .*.    .*.  
+    0x89, 0x6F, 0x09,         // .* *XX*..*  
+    0x96, 0x75, 0x09,         // *..*..X..*  
+    0x67, 0x74, 0x0D,         // X.*. .X..X  
+    0x77, 0x34, 0x0D,         // X.X. .X .X  
+    0x77, 0x34, 0x09,         // X.X. .X .*  
+    0xA6, 0x79, 0x0A,         // *.**.*X.**  
+    0x9A, 0xDB, 0x06,         // **.*X*.X*.  
+    0x1D, 0x00, 0x00,         // .X.         
+    0x64, 0x51, 0x01,         //  .*.. ...   
+    0x90, 0xBF, 0x01,         //   .*XXX*.   
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 65
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x0A, 0x00,         //     **      
+    0x40, 0x1F, 0x00,         //    .XX.     
+    0x80, 0x2A, 0x00,         //    ****     
+    0x80, 0x25, 0x00,         //    *..*     
+    0xD0, 0x75, 0x00,         //   .X..X.    
+    0xA0, 0xA0, 0x00,         //   **  **    
+    0x74, 0xD0, 0x01,         //  .X.  .X.   
+    0xF4, 0xFF, 0x01,         //  .XXXXXX.   
+    0x68, 0x95, 0x02,         //  **....**   
+    0x1D, 0x40, 0x07,         // .X.    .X.  
+    0x1D, 0x40, 0x07,         // .X.    .X.  
+    0x0A, 0x00, 0x0A,         // **      **  
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 66
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0xFC, 0xAF, 0x01,         //  XXXXX**.   
+    0x6C, 0xE5, 0x02,         //  X*...*X*   
+    0x1C, 0x80, 0x03,         //  X.    *X   
+    0x1C, 0x80, 0x03,         //  X.    *X   
+    0x1C, 0x94, 0x01,         //  X.  ..*.   
+    0xFC, 0x6F, 0x00,         //  XXXXX*.    
+    0x6C, 0xE5, 0x01,         //  X*...*X.   
+    0x1C, 0x80, 0x02,         //  X.    **   
+    0x1C, 0x80, 0x03,         //  X.    *X   
+    0x1C, 0x80, 0x02,         //  X.    **   
+    0x6C, 0xE5, 0x01,         //  X*...*X.   
+    0xFC, 0x6F, 0x00,         //  XXXXX*.    
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 67
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x40, 0xBE, 0x02,         //    .*XX**   
+    0xD0, 0x96, 0x01,         //   .X*..*.   
+    0xB4, 0x00, 0x00,         //  .X*        
+    0x78, 0x00, 0x00,         //  *X.        
+    0x28, 0x00, 0x00,         //  **         
+    0x2C, 0x00, 0x00,         //  X*         
+    0x2C, 0x00, 0x00,         //  X*         
+    0x28, 0x00, 0x00,         //  **         
+    0x68, 0x00, 0x00,         //  **.        
+    0xB4, 0x00, 0x00,         //  .X*        
+    0xE0, 0x56, 0x02,         //   *X*...*   
+    0x40, 0xBE, 0x02,         //    .*XX**   
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 68
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0xFC, 0x1B, 0x00,         //  XXXX*.     
+    0x6C, 0xB9, 0x00,         //  X*..*X*    
+    0x1C, 0xD0, 0x01,         //  X.   .X.   
+    0x1C, 0x90, 0x02,         //  X.   .**   
+    0x1C, 0x80, 0x02,         //  X.    **   
+    0x1C, 0x80, 0x03,         //  X.    *X   
+    0x1C, 0x80, 0x03,         //  X.    *X   
+    0x1C, 0x80, 0x02,         //  X.    **   
+    0x1C, 0xD0, 0x02,         //  X.   .X*   
+    0x1C, 0xE0, 0x01,         //  X.   *X.   
+    0x6C, 0x79, 0x00,         //  X*..*X.    
+    0xFC, 0x1B, 0x00,         //  XXXX*.     
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 69
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0xF0, 0xFF, 0x03,         //   XXXXXXX   
+    0xB0, 0x55, 0x01,         //   X*.....   
+    0x70, 0x00, 0x00,         //   X.        
+    0x70, 0x00, 0x00,         //   X.        
+    0x70, 0x00, 0x00,         //   X.        
+    0xF0, 0xFF, 0x03,         //   XXXXXXX   
+    0xB0, 0x55, 0x01,         //   X*.....   
+    0x70, 0x00, 0x00,         //   X.        
+    0x70, 0x00, 0x00,         //   X.        
+    0x70, 0x00, 0x00,         //   X.        
+    0xB0, 0x55, 0x01,         //   X*.....   
+    0xF0, 0xFF, 0x03,         //   XXXXXXX   
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 70
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0xF0, 0xFF, 0x03,         //   XXXXXXX   
+    0xB0, 0x55, 0x01,         //   X*.....   
+    0x70, 0x00, 0x00,         //   X.        
+    0x70, 0x00, 0x00,         //   X.        
+    0x70, 0x00, 0x00,         //   X.        
+    0xF0, 0xFF, 0x03,         //   XXXXXXX   
+    0xB0, 0x55, 0x01,         //   X*.....   
+    0x70, 0x00, 0x00,         //   X.        
+    0x70, 0x00, 0x00,         //   X.        
+    0x70, 0x00, 0x00,         //   X.        
+    0x70, 0x00, 0x00,         //   X.        
+    0x70, 0x00, 0x00,         //   X.        
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 71
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x40, 0xBE, 0x01,         //    .*XX*.   
+    0xE0, 0x96, 0x01,         //   *X*..*.   
+    0x74, 0x00, 0x00,         //  .X.        
+    0x68, 0x00, 0x00,         //  **.        
+    0x28, 0x00, 0x00,         //  **         
+    0x2C, 0xF4, 0x03,         //  X*  .XXX   
+    0x2C, 0x94, 0x03,         //  X*  ..*X   
+    0x28, 0x40, 0x03,         //  **    .X   
+    0x28, 0x40, 0x03,         //  **    .X   
+    0x74, 0x40, 0x03,         //  .X.   .X   
+    0xE0, 0x96, 0x03,         //   *X*..*X   
+    0x50, 0xBE, 0x02,         //   ..*XX**   
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 72
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0xFC, 0xFF, 0x03,         //  XXXXXXXX   
+    0x6C, 0x95, 0x03,         //  X*....*X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 73
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0xF4, 0xBF, 0x00,         //  .XXXXX*    
+    0x54, 0x5B, 0x00,         //  ...X*..    
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x54, 0x5B, 0x00,         //  ...X*..    
+    0xF4, 0xBF, 0x00,         //  .XXXXX*    
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 74
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0xD0, 0x00,         //       .X    
+    0x00, 0xD0, 0x00,         //       .X    
+    0x00, 0xD0, 0x00,         //       .X    
+    0x00, 0xD0, 0x00,         //       .X    
+    0x00, 0xD0, 0x00,         //       .X    
+    0x00, 0xD0, 0x00,         //       .X    
+    0x00, 0xD0, 0x00,         //       .X    
+    0x00, 0xD0, 0x00,         //       .X    
+    0x00, 0xD0, 0x00,         //       .X    
+    0x00, 0xA0, 0x00,         //       **    
+    0x58, 0x79, 0x00,         //  *...*X.    
+    0xF8, 0x1B, 0x00,         //  *XXX*.     
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 75
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x1C, 0x40, 0x0B,         //  X.    .X*  
+    0x1C, 0x90, 0x02,         //  X.   .**   
+    0x1C, 0xA4, 0x00,         //  X.  .**    
+    0x1C, 0x29, 0x00,         //  X. .**     
+    0x5C, 0x0A, 0x00,         //  X..**      
+    0x9C, 0x06, 0x00,         //  X.**.      
+    0x6C, 0x0A, 0x00,         //  X*.**      
+    0x1C, 0x2D, 0x00,         //  X. .X*     
+    0x1C, 0x74, 0x00,         //  X.  .X.    
+    0x1C, 0xE0, 0x01,         //  X.   *X.   
+    0x1C, 0x90, 0x06,         //  X.   .**.  
+    0x1C, 0x40, 0x0B,         //  X.    .X*  
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 76
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x1C, 0x00, 0x00,         //  X.         
+    0x1C, 0x00, 0x00,         //  X.         
+    0x1C, 0x00, 0x00,         //  X.         
+    0x1C, 0x00, 0x00,         //  X.         
+    0x1C, 0x00, 0x00,         //  X.         
+    0x1C, 0x00, 0x00,         //  X.         
+    0x1C, 0x00, 0x00,         //  X.         
+    0x1C, 0x00, 0x00,         //  X.         
+    0x1C, 0x00, 0x00,         //  X.         
+    0x1C, 0x00, 0x00,         //  X.         
+    0x6C, 0x55, 0x01,         //  X*......   
+    0xFC, 0xFF, 0x03,         //  XXXXXXXX   
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 77
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x2C, 0x80, 0x03,         //  X*    *X   
+    0x2C, 0x80, 0x03,         //  X*    *X   
+    0x6C, 0x90, 0x03,         //  X*.  .*X   
+    0x5C, 0x90, 0x03,         //  X..  .*X   
+    0x9C, 0x60, 0x03,         //  X.*  *.X   
+    0x9C, 0x60, 0x03,         //  X.*  *.X   
+    0x9C, 0x65, 0x03,         //  X.*..*.X   
+    0x5C, 0x55, 0x03,         //  X......X   
+    0x5C, 0x5A, 0x03,         //  X..**..X   
+    0x5C, 0x4A, 0x03,         //  X..** .X   
+    0x1C, 0x4A, 0x03,         //  X. ** .X   
+    0x1C, 0x46, 0x03,         //  X. *. .X   
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 78
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x2C, 0x40, 0x03,         //  X*    .X   
+    0x7C, 0x40, 0x03,         //  XX.   .X   
+    0xAC, 0x40, 0x03,         //  X**   .X   
+    0x9C, 0x41, 0x03,         //  X.*.  .X   
+    0x5C, 0x42, 0x03,         //  X..*  .X   
+    0x1C, 0x46, 0x03,         //  X. *. .X   
+    0x1C, 0x49, 0x03,         //  X. .* .X   
+    0x1C, 0x58, 0x03,         //  X.  *..X   
+    0x1C, 0x64, 0x03,         //  X.  .*.X   
+    0x1C, 0xA0, 0x03,         //  X.   **X   
+    0x1C, 0xD0, 0x03,         //  X.   .XX   
+    0x1C, 0x80, 0x03,         //  X.    *X   
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 79
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x90, 0x6F, 0x00,         //   .*XX*.    
+    0xA4, 0xA5, 0x01,         //  .**..**.   
+    0x74, 0xD0, 0x01,         //  .X.  .X.   
+    0x28, 0x80, 0x02,         //  **    **   
+    0x2C, 0x80, 0x03,         //  X*    *X   
+    0x2C, 0x80, 0x03,         //  X*    *X   
+    0x2C, 0x80, 0x03,         //  X*    *X   
+    0x2C, 0x80, 0x03,         //  X*    *X   
+    0x28, 0x80, 0x02,         //  **    **   
+    0x74, 0xD0, 0x01,         //  .X.  .X.   
+    0xA4, 0xA5, 0x01,         //  .**..**.   
+    0x90, 0x6F, 0x00,         //   .*XX*.    
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 80
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0xFC, 0x6F, 0x00,         //  XXXXX*.    
+    0x6C, 0xE5, 0x01,         //  X*...*X.   
+    0x1C, 0x80, 0x02,         //  X.    **   
+    0x1C, 0x80, 0x03,         //  X.    *X   
+    0x1C, 0x80, 0x02,         //  X.    **   
+    0x1C, 0xE4, 0x01,         //  X.  .*X.   
+    0xFC, 0x6F, 0x00,         //  XXXXX*.    
+    0x6C, 0x05, 0x00,         //  X*...      
+    0x1C, 0x00, 0x00,         //  X.         
+    0x1C, 0x00, 0x00,         //  X.         
+    0x1C, 0x00, 0x00,         //  X.         
+    0x1C, 0x00, 0x00,         //  X.         
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 81
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x90, 0x6F, 0x00,         //   .*XX*.    
+    0xA4, 0xA5, 0x01,         //  .**..**.   
+    0x74, 0xD0, 0x01,         //  .X.  .X.   
+    0x28, 0x80, 0x02,         //  **    **   
+    0x2C, 0x80, 0x03,         //  X*    *X   
+    0x2C, 0x80, 0x03,         //  X*    *X   
+    0x2C, 0x80, 0x03,         //  X*    *X   
+    0x2C, 0x80, 0x03,         //  X*    *X   
+    0x28, 0x80, 0x02,         //  **    **   
+    0x74, 0xD0, 0x01,         //  .X.  .X.   
+    0xA4, 0xA5, 0x00,         //  .**..**    
+    0x90, 0x6F, 0x00,         //   .*XX*.    
+    0x00, 0x74, 0x00,         //      .X.    
+    0x00, 0xD0, 0x01,         //       .X.   
+    0x00, 0x40, 0x02,         //        .*   
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 82
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0xFC, 0x6F, 0x00,         //  XXXXX*.    
+    0x6C, 0xE5, 0x01,         //  X*...*X.   
+    0x1C, 0x80, 0x02,         //  X.    **   
+    0x1C, 0x80, 0x03,         //  X.    *X   
+    0x1C, 0x80, 0x02,         //  X.    **   
+    0x1C, 0xE4, 0x01,         //  X.  .*X.   
+    0xFC, 0x6F, 0x00,         //  XXXXX*.    
+    0x6C, 0x29, 0x00,         //  X*..**     
+    0x1C, 0xB4, 0x00,         //  X.  .X*    
+    0x1C, 0xD0, 0x01,         //  X.   .X.   
+    0x1C, 0x80, 0x06,         //  X.    **.  
+    0x1C, 0x40, 0x0A,         //  X.    .**  
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 83
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x90, 0xBF, 0x02,         //   .*XXX**   
+    0xB8, 0x95, 0x02,         //  *X*...**   
+    0x2C, 0x00, 0x00,         //  X*         
+    0x2C, 0x00, 0x00,         //  X*         
+    0x78, 0x01, 0x00,         //  *X..       
+    0xE4, 0x1A, 0x00,         //  .*X**.     
+    0x40, 0xB9, 0x01,         //    ..*X*.   
+    0x00, 0x90, 0x02,         //       .**   
+    0x00, 0x40, 0x03,         //        .X   
+    0x00, 0x80, 0x02,         //        **   
+    0x58, 0xE5, 0x01,         //  *....*X.   
+    0xE8, 0x6F, 0x00,         //  **XXX*.    
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 84
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0xFC, 0xFF, 0x03,         //  XXXXXXXX   
+    0x54, 0x5B, 0x01,         //  ...X*...   
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 85
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x2C, 0x80, 0x03,         //  X*    *X   
+    0x28, 0x80, 0x02,         //  **    **   
+    0xB4, 0xE5, 0x01,         //  .X*..*X.   
+    0x90, 0x6F, 0x00,         //   .*XX*.    
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 86
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x0A, 0x00, 0x0A,         // **      **  
+    0x1D, 0x40, 0x07,         // .X.    .X.  
+    0x1D, 0x40, 0x07,         // .X.    .X.  
+    0x28, 0x80, 0x02,         //  **    **   
+    0x74, 0xD0, 0x01,         //  .X.  .X.   
+    0x74, 0xD0, 0x01,         //  .X.  .X.   
+    0xA0, 0xA0, 0x00,         //   **  **    
+    0xD0, 0x75, 0x00,         //   .X..X.    
+    0x80, 0x25, 0x00,         //    *..*     
+    0x40, 0x2A, 0x00,         //    .***     
+    0x40, 0x1F, 0x00,         //    .XX.     
+    0x00, 0x0A, 0x00,         //     **      
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 87
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x07, 0x00, 0x0D,         // X.      .X  
+    0x0A, 0x00, 0x09,         // **      .*  
+    0x0A, 0x00, 0x0A,         // **      **  
+    0x0A, 0x00, 0x0A,         // **      **  
+    0x0D, 0x0A, 0x06,         // .X  **  *.  
+    0x5D, 0x1A, 0x07,         // .X..**. X.  
+    0x5D, 0x5A, 0x07,         // .X..**..X.  
+    0x9C, 0x65, 0x03,         //  X.*..*.X   
+    0xD8, 0x65, 0x02,         //  *.X..*.*   
+    0xA8, 0xA0, 0x02,         //  ***  ***   
+    0x68, 0x90, 0x02,         //  **.  .**   
+    0x74, 0xD0, 0x01,         //  .X.  .X.   
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 88
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x1A, 0x40, 0x0A,         // **.    .**  
+    0x29, 0x80, 0x06,         // .**    **.  
+    0x74, 0xD0, 0x01,         //  .X.  .X.   
+    0xA0, 0xA5, 0x00,         //   **..**    
+    0x90, 0x2A, 0x00,         //   .****     
+    0x40, 0x1F, 0x00,         //    .XX.     
+    0x40, 0x1F, 0x00,         //    .XX.     
+    0x90, 0x69, 0x00,         //   .*.**.    
+    0xA0, 0xA4, 0x00,         //   ** .**    
+    0x74, 0xD0, 0x01,         //  .X.  .X.   
+    0x19, 0x80, 0x06,         // .*.    **.  
+    0x0A, 0x40, 0x0A,         // **     .**  
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 89
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x0A, 0x40, 0x07,         // **     .X.  
+    0x1D, 0x80, 0x02,         // .X.    **   
+    0x28, 0xD0, 0x01,         //  **   .X.   
+    0x64, 0x64, 0x00,         //  .*. .*.    
+    0x90, 0x65, 0x00,         //   .*..*.    
+    0x80, 0x1E, 0x00,         //    **X.     
+    0x40, 0x0B, 0x00,         //    .X*      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 90
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0xFC, 0xFF, 0x03,         //  XXXXXXXX   
+    0x54, 0x95, 0x02,         //  ......**   
+    0x00, 0xD0, 0x01,         //       .X.   
+    0x00, 0x74, 0x00,         //      .X.    
+    0x00, 0x28, 0x00,         //      **     
+    0x00, 0x1D, 0x00,         //     .X.     
+    0x40, 0x07, 0x00,         //    .X.      
+    0x80, 0x02, 0x00,         //    **       
+    0xD0, 0x01, 0x00,         //   .X.       
+    0x74, 0x00, 0x00,         //  .X.        
+    0x68, 0x55, 0x01,         //  **......   
+    0xFC, 0xFF, 0x03,         //  XXXXXXXX   
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 91
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0xFF, 0x00,         //     XXXX    
+    0x00, 0x5B, 0x00,         //     X*..    
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x5B, 0x00,         //     X*..    
+    0x00, 0xFF, 0x00,         //     XXXX    
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 92
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0xA0, 0x00, 0x00,         //   **        
+    0x90, 0x01, 0x00,         //   .*.       
+    0xD0, 0x01, 0x00,         //   .X.       
+    0x80, 0x02, 0x00,         //    **       
+    0x40, 0x07, 0x00,         //    .X.      
+    0x00, 0x06, 0x00,         //     *.      
+    0x00, 0x09, 0x00,         //     .*      
+    0x00, 0x1D, 0x00,         //     .X.     
+    0x00, 0x28, 0x00,         //      **     
+    0x00, 0x74, 0x00,         //      .X.    
+    0x00, 0x64, 0x00,         //      .*.    
+    0x00, 0xA0, 0x00,         //       **    
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 93
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0xF0, 0x0F, 0x00,         //   XXXX      
+    0x50, 0x0E, 0x00,         //   ..*X      
+    0x00, 0x0D, 0x00,         //     .X      
+    0x00, 0x0D, 0x00,         //     .X      
+    0x00, 0x0D, 0x00,         //     .X      
+    0x00, 0x0D, 0x00,         //     .X      
+    0x00, 0x0D, 0x00,         //     .X      
+    0x00, 0x0D, 0x00,         //     .X      
+    0x00, 0x0D, 0x00,         //     .X      
+    0x00, 0x0D, 0x00,         //     .X      
+    0x00, 0x0D, 0x00,         //     .X      
+    0x00, 0x0D, 0x00,         //     .X      
+    0x00, 0x0D, 0x00,         //     .X      
+    0x50, 0x0E, 0x00,         //   ..*X      
+    0xF0, 0x0F, 0x00,         //   XXXX      
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 94
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x0A, 0x00,         //     **      
+    0x40, 0x1A, 0x00,         //    .**.     
+    0x80, 0x25, 0x00,         //    *..*     
+    0x90, 0x65, 0x00,         //   .*..*.    
+    0x60, 0x90, 0x00,         //   *.  .*    
+    0x64, 0xD0, 0x01,         //  .*.  .X.   
+    0x18, 0x80, 0x02,         //  *.    **   
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 95
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0xFF, 0xFF, 0x0F,         // XXXXXXXXXX  
+    0x55, 0x55, 0x05,         // ..........  
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 96
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x1A, 0x00,         //     **.     
+    0x00, 0x1D, 0x00,         //     .X.     
+    0x00, 0x24, 0x00,         //      .*     
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 97
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0xA4, 0xAF, 0x01,         //  .**XX**.   
+    0x64, 0xD5, 0x02,         //  .*....X*   
+    0x00, 0x80, 0x03,         //        *X   
+    0x00, 0x40, 0x03,         //        .X   
+    0x90, 0xFE, 0x03,         //   .**XXXX   
+    0x68, 0x45, 0x03,         //  **... .X   
+    0x1C, 0x80, 0x03,         //  X.    *X   
+    0x68, 0xA5, 0x03,         //  **...**X   
+    0xE4, 0x6B, 0x03,         //  .*XX**.X   
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 98
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x1C, 0x00, 0x00,         //  X.         
+    0x1C, 0x00, 0x00,         //  X.         
+    0x1C, 0x00, 0x00,         //  X.         
+    0x1C, 0x00, 0x00,         //  X.         
+    0x9C, 0x6F, 0x00,         //  X.*XX*.    
+    0xAC, 0xE5, 0x01,         //  X**..*X.   
+    0x2C, 0x80, 0x02,         //  X*    **   
+    0x1C, 0x80, 0x03,         //  X.    *X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x1C, 0x80, 0x03,         //  X.    *X   
+    0x2C, 0x80, 0x02,         //  X*    **   
+    0xAC, 0xE5, 0x01,         //  X**..*X.   
+    0x9C, 0x6E, 0x00,         //  X.**X*.    
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 99
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x90, 0xBE, 0x02,         //   .**XX**   
+    0xA4, 0x55, 0x01,         //  .**.....   
+    0x68, 0x00, 0x00,         //  **.        
+    0x28, 0x00, 0x00,         //  **         
+    0x1C, 0x00, 0x00,         //  X.         
+    0x28, 0x00, 0x00,         //  **         
+    0x68, 0x00, 0x00,         //  **.        
+    0xA4, 0x55, 0x02,         //  .**....*   
+    0x90, 0xBE, 0x02,         //   .**XX**   
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 100
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x40, 0x03,         //        .X   
+    0x00, 0x40, 0x03,         //        .X   
+    0x00, 0x40, 0x03,         //        .X   
+    0x00, 0x40, 0x03,         //        .X   
+    0x90, 0x6F, 0x03,         //   .*XX*.X   
+    0xB4, 0xA5, 0x03,         //  .X*..**X   
+    0x28, 0x80, 0x03,         //  **    *X   
+    0x2C, 0x40, 0x03,         //  X*    .X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x2C, 0x40, 0x03,         //  X*    .X   
+    0x28, 0x80, 0x03,         //  **    *X   
+    0xB4, 0xA5, 0x03,         //  .X*..**X   
+    0x90, 0x6B, 0x03,         //   .*X**.X   
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 101
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x90, 0x6F, 0x00,         //   .*XX*.    
+    0xA4, 0xE5, 0x01,         //  .**..*X.   
+    0x68, 0x80, 0x02,         //  **.   **   
+    0x28, 0x40, 0x03,         //  **    .X   
+    0xFC, 0xFF, 0x03,         //  XXXXXXXX   
+    0x68, 0x55, 0x01,         //  **......   
+    0x28, 0x00, 0x00,         //  **         
+    0xA4, 0x55, 0x01,         //  .**.....   
+    0x90, 0xBE, 0x01,         //   .**XX*.   
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 102
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0xF9, 0x02,         //     .*XX*   
+    0x00, 0x5A, 0x01,         //     **...   
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0xE0, 0xFF, 0x00,         //   *XXXXX    
+    0x50, 0x57, 0x00,         //   ..X...    
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 103
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0xA4, 0xFF, 0x03,         //  .**XXXXX   
+    0x68, 0xA5, 0x00,         //  **...**    
+    0x1C, 0xD0, 0x00,         //  X.   .X    
+    0x1C, 0xD0, 0x00,         //  X.   .X    
+    0x68, 0xA4, 0x00,         //  **. .**    
+    0xE4, 0x6B, 0x00,         //  .*XX**.    
+    0x68, 0x00, 0x00,         //  **.        
+    0x1C, 0x00, 0x00,         //  X.         
+    0xF8, 0xBF, 0x01,         //  *XXXXX*.   
+    0x5A, 0x95, 0x02,         // **.....**   
+    0x07, 0x40, 0x03,         // X.     .X   
+    0x5A, 0x95, 0x02,         // **.....**   
+    0xE9, 0x6F, 0x00,         // .**XXX*.    
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 104
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x1C, 0x00, 0x00,         //  X.         
+    0x1C, 0x00, 0x00,         //  X.         
+    0x1C, 0x00, 0x00,         //  X.         
+    0x1C, 0x00, 0x00,         //  X.         
+    0x9C, 0xAE, 0x01,         //  X.**X**.   
+    0xAC, 0xD5, 0x02,         //  X**...X*   
+    0x2C, 0x80, 0x03,         //  X*    *X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 105
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x40, 0x06, 0x00,         //    .*.      
+    0x40, 0x06, 0x00,         //    .*.      
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0xF4, 0x07, 0x00,         //  .XXX.      
+    0x40, 0x07, 0x00,         //    .X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x40, 0x17, 0x00,         //    .X..     
+    0xF8, 0xFF, 0x01,         //  *XXXXXX.   
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 106
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x28, 0x00,         //      **     
+    0x00, 0x28, 0x00,         //      **     
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0xF0, 0x3F, 0x00,         //   XXXXX     
+    0x00, 0x35, 0x00,         //     ..X     
+    0x00, 0x34, 0x00,         //      .X     
+    0x00, 0x34, 0x00,         //      .X     
+    0x00, 0x34, 0x00,         //      .X     
+    0x00, 0x34, 0x00,         //      .X     
+    0x00, 0x34, 0x00,         //      .X     
+    0x00, 0x34, 0x00,         //      .X     
+    0x00, 0x34, 0x00,         //      .X     
+    0x00, 0x34, 0x00,         //      .X     
+    0x00, 0x34, 0x00,         //      .X     
+    0x54, 0x29, 0x00,         //  ....**     
+    0xF8, 0x1A, 0x00,         //  *XX**.     
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 107
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x70, 0x00, 0x00,         //   X.        
+    0x70, 0x00, 0x00,         //   X.        
+    0x70, 0x00, 0x00,         //   X.        
+    0x70, 0x00, 0x00,         //   X.        
+    0x70, 0xD0, 0x01,         //   X.  .X.   
+    0x70, 0x64, 0x00,         //   X. .*.    
+    0x70, 0x19, 0x00,         //   X..*.     
+    0x70, 0x06, 0x00,         //   X.*.      
+    0xB0, 0x07, 0x00,         //   X*X.      
+    0xB0, 0x19, 0x00,         //   X*.*.     
+    0x70, 0x74, 0x00,         //   X. .X.    
+    0x70, 0x90, 0x01,         //   X.  .*.   
+    0x70, 0x80, 0x06,         //   X.   **.  
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 108
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0xF4, 0x07, 0x00,         //  .XXX.      
+    0x40, 0x07, 0x00,         //    .X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x40, 0x17, 0x00,         //    .X..     
+    0xF8, 0xFF, 0x01,         //  *XXXXXX.   
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 109
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x9C, 0xE6, 0x01,         //  X.**.*X.   
+    0x6C, 0x9A, 0x02,         //  X*.**.**   
+    0x2C, 0x4A, 0x03,         //  X* ** .X   
+    0x1C, 0x4A, 0x03,         //  X. ** .X   
+    0x1C, 0x4A, 0x03,         //  X. ** .X   
+    0x1C, 0x4A, 0x03,         //  X. ** .X   
+    0x1C, 0x4A, 0x03,         //  X. ** .X   
+    0x1C, 0x4A, 0x03,         //  X. ** .X   
+    0x1C, 0x4A, 0x03,         //  X. ** .X   
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 110
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x9C, 0xAE, 0x01,         //  X.**X**.   
+    0xAC, 0xD5, 0x02,         //  X**...X*   
+    0x2C, 0x80, 0x03,         //  X*    *X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 111
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x90, 0x6F, 0x00,         //   .*XX*.    
+    0xB4, 0xA5, 0x01,         //  .X*..**.   
+    0x28, 0x80, 0x02,         //  **    **   
+    0x2C, 0x80, 0x03,         //  X*    *X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x28, 0x80, 0x03,         //  **    *X   
+    0x28, 0x80, 0x02,         //  **    **   
+    0xA4, 0xE5, 0x01,         //  .**..*X.   
+    0x90, 0x6F, 0x00,         //   .*XX*.    
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 112
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x9C, 0x6E, 0x00,         //  X.**X*.    
+    0xAC, 0xE5, 0x01,         //  X**..*X.   
+    0x2C, 0x80, 0x02,         //  X*    **   
+    0x1C, 0x80, 0x03,         //  X.    *X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x1C, 0x80, 0x03,         //  X.    *X   
+    0x2C, 0x80, 0x02,         //  X*    **   
+    0xAC, 0xE5, 0x01,         //  X**..*X.   
+    0x9C, 0x6E, 0x00,         //  X.**X*.    
+    0x1C, 0x00, 0x00,         //  X.         
+    0x1C, 0x00, 0x00,         //  X.         
+    0x1C, 0x00, 0x00,         //  X.         
+    0x1C, 0x00, 0x00,         //  X.         
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 113
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x90, 0x6B, 0x03,         //   .*X**.X   
+    0xB4, 0xA5, 0x03,         //  .X*..**X   
+    0x28, 0x80, 0x03,         //  **    *X   
+    0x2C, 0x40, 0x03,         //  X*    .X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x2C, 0x40, 0x03,         //  X*    .X   
+    0x28, 0x80, 0x03,         //  **    *X   
+    0xB4, 0xA5, 0x03,         //  .X*..**X   
+    0x90, 0x6B, 0x03,         //   .*X**.X   
+    0x00, 0x40, 0x03,         //        .X   
+    0x00, 0x40, 0x03,         //        .X   
+    0x00, 0x40, 0x03,         //        .X   
+    0x00, 0x40, 0x03,         //        .X   
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 114
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x70, 0xF9, 0x02,         //   X..*XX*   
+    0xB0, 0x56, 0x01,         //   X**....   
+    0xB0, 0x00, 0x00,         //   X*        
+    0x70, 0x00, 0x00,         //   X.        
+    0x70, 0x00, 0x00,         //   X.        
+    0x70, 0x00, 0x00,         //   X.        
+    0x70, 0x00, 0x00,         //   X.        
+    0x70, 0x00, 0x00,         //   X.        
+    0x70, 0x00, 0x00,         //   X.        
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 115
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x90, 0xAF, 0x00,         //   .*XX**    
+    0xA0, 0x55, 0x00,         //   **....    
+    0x70, 0x00, 0x00,         //   X.        
+    0xE0, 0x06, 0x00,         //   *X*.      
+    0x40, 0x6E, 0x00,         //    .*X*.    
+    0x00, 0xA4, 0x00,         //      .**    
+    0x00, 0xD0, 0x00,         //       .X    
+    0x60, 0xA5, 0x00,         //   *...**    
+    0xE0, 0x6F, 0x00,         //   *XXX*.    
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 116
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x05, 0x00,         //     ..      
+    0x00, 0x06, 0x00,         //     *.      
+    0x00, 0x06, 0x00,         //     *.      
+    0xE0, 0xFF, 0x03,         //   *XXXXXX   
+    0x50, 0x57, 0x01,         //   ..X....   
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x5A, 0x01,         //     **...   
+    0x00, 0xF9, 0x02,         //     .*XX*   
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 117
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x1C, 0x40, 0x03,         //  X.    .X   
+    0x2C, 0x80, 0x03,         //  X*    *X   
+    0x78, 0xA5, 0x03,         //  *X...**X   
+    0xA4, 0x6B, 0x03,         //  .**X**.X   
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 118
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x28, 0x80, 0x02,         //  **    **   
+    0x74, 0xD0, 0x01,         //  .X.  .X.   
+    0x74, 0xD0, 0x01,         //  .X.  .X.   
+    0xA0, 0xA0, 0x00,         //   **  **    
+    0xD0, 0x65, 0x00,         //   .X..*.    
+    0xD0, 0x75, 0x00,         //   .X..X.    
+    0x80, 0x2A, 0x00,         //    ****     
+    0x40, 0x1A, 0x00,         //    .**.     
+    0x40, 0x1F, 0x00,         //    .XX.     
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 119
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x06, 0x0A, 0x09,         // *.  **  .*  
+    0x0A, 0x0A, 0x0A,         // **  **  **  
+    0x49, 0x1A, 0x06,         // .* .**. *.  
+    0x89, 0x2A, 0x06,         // .* **** *.  
+    0x9D, 0x65, 0x07,         // .X.*..*.X.  
+    0xD8, 0x75, 0x02,         //  *.X..X.*   
+    0xA8, 0xA0, 0x02,         //  ***  ***   
+    0x64, 0x90, 0x01,         //  .*.  .*.   
+    0x74, 0xD0, 0x01,         //  .X.  .X.   
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 120
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x74, 0xD0, 0x01,         //  .X.  .X.   
+    0xA0, 0xA0, 0x00,         //   **  **    
+    0xD0, 0x75, 0x00,         //   .X..X.    
+    0x40, 0x1F, 0x00,         //    .XX.     
+    0x40, 0x1A, 0x00,         //    .**.     
+    0x80, 0x2A, 0x00,         //    ****     
+    0xD0, 0x75, 0x00,         //   .X..X.    
+    0xA4, 0xA0, 0x01,         //  .**  **.   
+    0x68, 0x90, 0x02,         //  **.  .**   
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 121
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x28, 0x80, 0x02,         //  **    **   
+    0x74, 0xD0, 0x01,         //  .X.  .X.   
+    0x74, 0xD0, 0x01,         //  .X.  .X.   
+    0xA0, 0xA0, 0x00,         //   **  **    
+    0xD0, 0x75, 0x00,         //   .X..X.    
+    0x90, 0x75, 0x00,         //   .*..X.    
+    0x80, 0x2A, 0x00,         //    ****     
+    0x40, 0x1B, 0x00,         //    .X*.     
+    0x00, 0x1A, 0x00,         //     **.     
+    0x00, 0x0A, 0x00,         //     **      
+    0x40, 0x07, 0x00,         //    .X.      
+    0x94, 0x02, 0x00,         //  ..**       
+    0xBC, 0x01, 0x00,         //  XX*.       
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 122
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0xF0, 0xFF, 0x00,         //   XXXXXX    
+    0x50, 0xA5, 0x00,         //   ....**    
+    0x00, 0x74, 0x00,         //      .X.    
+    0x00, 0x19, 0x00,         //     .*.     
+    0x00, 0x0A, 0x00,         //     **      
+    0x40, 0x07, 0x00,         //    .X.      
+    0x90, 0x01, 0x00,         //   .*.       
+    0xA0, 0x55, 0x00,         //   **....    
+    0xF0, 0xFF, 0x00,         //   XXXXXX    
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 123
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0xE9, 0x00,         //     .**X    
+    0x00, 0x5A, 0x00,         //     **..    
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x40, 0x07, 0x00,         //    .X.      
+    0x50, 0x07, 0x00,         //   ..X.      
+    0xF0, 0x01, 0x00,         //   XX.       
+    0x90, 0x07, 0x00,         //   .*X.      
+    0x40, 0x07, 0x00,         //    .X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x5A, 0x00,         //     **..    
+    0x00, 0xE9, 0x00,         //     .**X    
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 124
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x07, 0x00,         //     X.      
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 125
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0xB0, 0x06, 0x00,         //   X**.      
+    0x50, 0x0A, 0x00,         //   ..**      
+    0x00, 0x0D, 0x00,         //     .X      
+    0x00, 0x0D, 0x00,         //     .X      
+    0x00, 0x0D, 0x00,         //     .X      
+    0x00, 0x0D, 0x00,         //     .X      
+    0x00, 0x5D, 0x00,         //     .X..    
+    0x00, 0xF4, 0x00,         //      .XX    
+    0x00, 0x6D, 0x00,         //     .X*.    
+    0x00, 0x1D, 0x00,         //     .X.     
+    0x00, 0x0D, 0x00,         //     .X      
+    0x00, 0x0D, 0x00,         //     .X      
+    0x00, 0x0D, 0x00,         //     .X      
+    0x50, 0x0A, 0x00,         //   ..**      
+    0xB0, 0x06, 0x00,         //   X**.      
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+/***********************************
+ * Character - 126
+ ***********************************/
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0xE4, 0x06, 0x03,         //  .*X*.  X   
+    0x58, 0x5A, 0x02,         //  *..**..*   
+    0x0C, 0xB9, 0x01,         //  X  .*X*.   
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+    0x00, 0x00, 0x00,         //             
+
+};
+
