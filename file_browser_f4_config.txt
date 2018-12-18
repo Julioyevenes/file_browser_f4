@@ -1,0 +1,10 @@
+Preprocessor(defines): ARM           GFX_LIB         USE_Delay
+                       STM32F4XX     SUPPORT_WAV     USE_USB_OTG_FS
+                                     SUPPORT_MP3     USE_EMBEDDED_PHY
+                                                     USE_AUDIO_DECODERS
+                                                     USE_STDPERIPH_DRIVER
+                                                     USE_STM32F4_DISCOVERY
+
+Exclusion(files): Libraries/STM32_USB_HOST_Library/Class/MSC/src/usbh_msc_fatfs.c
+                  Libraries/STM32_USB_OTG_Driver/src/usb_bsp_template.c
+                  Libraries/STM32_USB_OTG_Driver/src/usb_otg.c              
